@@ -1,0 +1,107 @@
+<Layout units="mm" worldFileMap="{f349f487-533e-4e5d-95ef-e85f99673016}" printResolution="300" name="BuurtKaart">
+ <Snapper snapToGrid="0" snapToGuides="1" snapToItems="1" tolerance="5"/>
+ <Grid offsetUnits="mm" offsetX="0" resUnits="mm" offsetY="0" resolution="10"/>
+ <PageCollection>
+  <symbol force_rhr="0" clip_to_extent="1" name="" alpha="1" type="fill">
+   <layer pass="0" class="SimpleFill" locked="0" enabled="1">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem positionLock="false" outlineWidthM="0.3,mm" templateUuid="{0d9bdd3d-dd27-46f1-830f-3687e2a80897}" type="65638" itemRotation="0" frame="false" size="297,210,mm" visibility="1" referencePoint="0" groupUuid="" blendMode="0" position="0,0,mm" uuid="{0d9bdd3d-dd27-46f1-830f-3687e2a80897}" positionOnPage="0,0,mm" background="true" opacity="1" frameJoinStyle="miter" id="" excludeFromExports="0" zValue="0">
+   <FrameColor blue="0" alpha="255" red="0" green="0"/>
+   <BackgroundColor blue="255" alpha="255" red="255" green="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+   <symbol force_rhr="0" clip_to_extent="1" name="" alpha="1" type="fill">
+    <layer pass="0" class="SimpleFill" locked="0" enabled="1">
+     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="35,35,35,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.26"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option value="" name="name" type="QString"/>
+       <Option name="properties"/>
+       <Option value="collection" name="type" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem positionLock="false" outlineWidthM="0.3,mm" templateUuid="{bba7ccf8-2363-4dda-9639-8d82595b067d}" type="65641" marginY="0" itemRotation="0" frame="false" size="110.007,14.5134,mm" htmlState="0" marginX="0" visibility="1" referencePoint="0" groupUuid="" blendMode="0" position="1.81365e-16,0,mm" uuid="{bba7ccf8-2363-4dda-9639-8d82595b067d}" labelText="Speelterreinen en bereikbaarheid in Ermelo" valign="128" positionOnPage="1.81365e-16,0,mm" halign="1" background="false" opacity="1" frameJoinStyle="miter" id="" excludeFromExports="0" zValue="2">
+  <FrameColor blue="0" alpha="255" red="0" green="0"/>
+  <BackgroundColor blue="255" alpha="255" red="255" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="" description="Ubuntu,10,-1,5,50,0,0,0,0,0"/>
+  <FontColor blue="0" alpha="255" red="0" green="0"/>
+ </LayoutItem>
+ <LayoutItem positionLock="false" outlineWidthM="0.3,mm" mapFlags="0" templateUuid="{f349f487-533e-4e5d-95ef-e85f99673016}" type="65639" itemRotation="0" frame="false" size="235.713,193.653,mm" drawCanvasItems="true" keepLayerSet="false" visibility="1" followPreset="false" referencePoint="0" groupUuid="" blendMode="0" position="5.07823e-16,16.3468,mm" uuid="{f349f487-533e-4e5d-95ef-e85f99673016}" isTemporal="0" positionOnPage="5.07823e-16,16.3468,mm" mapRotation="0" background="true" opacity="1" labelMargin="0,mm" frameJoinStyle="miter" id="" followPresetName="" excludeFromExports="0" zValue="1">
+  <FrameColor blue="0" alpha="255" red="0" green="0"/>
+  <BackgroundColor blue="255" alpha="255" red="255" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="481263.69760323647642508" ymin="476362.8094223874504678" xmin="168372.62779727391898632" xmax="174337.93356315023265779"/>
+  <LayerSet/>
+  <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
+  <labelBlockingItems/>
+  <atlasClippingSettings forceLabelsInside="0" restrictLayers="0" enabled="0" clippingType="1">
+   <layersToClip/>
+  </atlasClippingSettings>
+  <itemClippingSettings forceLabelsInside="0" clipSource="" enabled="0" clippingType="1"/>
+ </LayoutItem>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+ </customproperties>
+ <Atlas coverageLayer="" hideCoverage="0" filterFeatures="0" enabled="0" pageNameExpression="" filenamePattern="'output_'||@atlas_featurenumber" sortFeatures="0"/>
+</Layout>
