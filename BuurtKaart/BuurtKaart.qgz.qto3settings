@@ -81,7 +81,7 @@
         "styleWidget2": {
           "comboData": null,
           "comboText": "Expression",
-          "editText": "10.05",
+          "editText": "5",
           "type": 1
         },
         "styleWidget3": {},
@@ -100,7 +100,7 @@
         "checkBox_ExportAttrs": false,
         "checkBox_Visible": true,
         "comboBox_Label": null,
-        "comboBox_ObjectType": "Polygon",
+        "comboBox_ObjectType": "Extruded",
         "comboBox_altitudeMode": null,
         "fieldExpressionWidget_altitude": "5",
         "labelHeightWidget": {
@@ -123,12 +123,22 @@
           "editText": "",
           "type": 5
         },
-        "styleWidget2": {},
-        "styleWidget3": {},
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "0.3",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": 0,
+          "comboText": "(No Edge)",
+          "editText": "0",
+          "type": 7
+        },
         "styleWidget4": {},
         "styleWidget5": {}
       },
-      "visible": false
+      "visible": true
     },
     {
       "geomType": 1,
@@ -233,8 +243,39 @@
       "geomType": 2,
       "layerId": "Reprojected_4050d0c1_86e5_4169_872d_32bea65ea338",
       "name": "Overig",
-      "properties": {},
-      "visible": false
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0.3",
+        "labelHeightWidget": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "checkBox": false,
+          "type": 9
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
     },
     {
       "geomType": 2,
@@ -246,9 +287,9 @@
         "checkBox_ExportAttrs": false,
         "checkBox_Visible": true,
         "comboBox_Label": null,
-        "comboBox_ObjectType": "Wall",
+        "comboBox_ObjectType": "Box",
         "comboBox_altitudeMode": null,
-        "fieldExpressionWidget_altitude": "50",
+        "fieldExpressionWidget_altitude": "10",
         "labelHeightWidget": {},
         "radioButton_Expression": true,
         "radioButton_IntersectingFeatures": true,
@@ -267,10 +308,15 @@
         "styleWidget2": {
           "comboData": null,
           "comboText": "Expression",
-          "editText": "0",
+          "editText": "5",
           "type": 1
         },
-        "styleWidget3": {},
+        "styleWidget3": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "10",
+          "type": 1
+        },
         "styleWidget4": {},
         "styleWidget5": {}
       },
@@ -288,7 +334,7 @@
         "comboBox_Label": null,
         "comboBox_ObjectType": "Box",
         "comboBox_altitudeMode": null,
-        "fieldExpressionWidget_altitude": "20",
+        "fieldExpressionWidget_altitude": "1",
         "labelHeightWidget": {},
         "radioButton_Expression": true,
         "radioButton_IntersectingFeatures": true,
@@ -307,13 +353,13 @@
         "styleWidget2": {
           "comboData": null,
           "comboText": "Expression",
-          "editText": "10.05",
+          "editText": "3",
           "type": 1
         },
         "styleWidget3": {
           "comboData": null,
           "comboText": "Expression",
-          "editText": "20.05",
+          "editText": "24.61",
           "type": 1
         },
         "styleWidget4": {},
@@ -385,17 +431,17 @@
         "checkBox_ExportAttrs": false,
         "checkBox_Visible": true,
         "comboBox_Label": null,
-        "comboBox_ObjectType": "Extruded",
+        "comboBox_ObjectType": "Overlay",
         "comboBox_altitudeMode": null,
-        "fieldExpressionWidget_altitude": "\"aantal_inwoners_0_tot_15_jaar\"",
+        "fieldExpressionWidget_altitude": "0",
         "labelHeightWidget": {
           "comboData": 0,
           "comboText": "Absolute",
           "editText": "100",
           "type": 6
         },
+        "radioButton_AllFeatures": true,
         "radioButton_Expression": true,
-        "radioButton_IntersectingFeatures": true,
         "styleWidget0": {
           "comboData": 1,
           "comboText": "Feature style",
@@ -409,21 +455,16 @@
           "type": 5
         },
         "styleWidget2": {
-          "comboData": null,
-          "comboText": "Expression",
-          "editText": "20.05",
-          "type": 1
-        },
-        "styleWidget3": {
           "comboData": 0,
-          "comboText": "(No Edge)",
+          "comboText": "(No border)",
           "editText": "0",
           "type": 7
         },
+        "styleWidget3": {},
         "styleWidget4": {},
         "styleWidget5": {}
       },
-      "visible": false
+      "visible": true
     },
     {
       "geomType": 3,
@@ -532,13 +573,31 @@
         "toolButton_SideColor": "0xccbbaa",
         "toolButton_WireframeColor": "0x000000"
       },
-      "visible": true
+      "visible": false
     }
   ],
+  "OPT": {
+    "localMode": true,
+    "viewpoint": {
+      "lookAt": {
+        "x": 3.569606617509687,
+        "y": -5.744010480685144,
+        "z": -7.070637458049768e-18
+      },
+      "pos": {
+        "x": 9.456585060060071,
+        "y": -60.30498556818844,
+        "z": 47.52731184942247
+      }
+    }
+  },
+  "OutputFilename": "",
+  "Template": "3DViewer.html",
+  "Title": "BuurtKaart",
   "WIDGETS": {
     "Label": {
       "Footer": "",
-      "Header": "Speelterreinen in Ermelo"
+      "Header": "Speelterreinen in Ermelo voor 0-6 jaar"
     },
     "NorthArrow": {
       "color": "0x666666",
