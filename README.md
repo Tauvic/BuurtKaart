@@ -43,3 +43,11 @@ Inrichting en bevolkings opbouw:
 * CBS Gemeentes
 * CBS wijken en buurten
 * CBS statistiek 100m
+
+Vragen en informatie behoefte:
+* waar zijn speelterreinen en voor welke doelgroep
+* zijn de speeltereinen goed en eerlijk verdeeld over de gemeente
+* hoe is de bereikbaarheid voor kinderen (hoeveel hebben wel/geen toegang)
+* hoe kunnen we de situatie verbeteren
+
+De speelterreinen in de gemeente Ermelo staan nu op OpenStreetMap je kan ze nu ook makkelijk terug vinden in [Mapcomplete](https://mapcomplete.osm.be/playgrounds.html?z=16&lat=52.29508&lon=5.608949&language=nl#welcome) en met de gratis [OSMAnd App](https://osmand.net/).
