@@ -12,6 +12,7 @@ Breng je buurt in kaart en gebruik deze informatie om de leefbaarheid te verbete
 Ondersteunen van burgerparticipatie door betere informatie.
 
 Eerste toepassing: De speelterreinen op de kaart zetten en advies over betere indeling
+
 Ambities: 
 * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
 * Voorzieningen voor ouderen (locatie en bereikbaarheid)
