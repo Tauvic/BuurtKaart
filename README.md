@@ -6,20 +6,24 @@ Burgerparticipatie is een door de gemeente of projectontwikkelaar geregisseerde 
 Dit geeft de indruk dat er nog maar weinig bij te sturen valt.
 Met de juiste data wordt bewonersparticipatie wél een succes . Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
 
-![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png?w=2048)
-
 Hoe gaat dit werken:
-* Breng je buurt in kaart
-* Ondersteunen van burgerparticipatie door betere informatie.
+* Lees je in op dit onderwerp (zie links naar artikelen)
+* Zet een werkgroepje op met vrijwilligers
+* Breng je buurt in kaart (verzamel informatie van de gemeente, loop rond en noteer)
 * Gebruik deze informatie om de leefbaarheid te verbeteren (overleg met de gemeente).
 * Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website
 * Deel deze informatie op OpenStreetMap zodat ook anderen Apps en Web toepassingen kunnen ontwikkelen
 
-Eerste toepassing: De speelterreinen op de kaart zetten en advies over betere indeling
-
 Ambities: 
+* De speelterreinen op de kaart zetten en advies over betere indeling
 * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
 * Voorzieningen voor ouderen (locatie en bereikbaarheid)
+* Verkeersveiligheid
+
+# Speelterreinen
+
+![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png?w=2048)
+
 
 Als voorbeeld beschrijf ik hoe je de speelvoorzieningen in de wijk kan inventariseren en vergelijken met de norm om hiermee verbetervoorstellen op te stellen. 
 De kennis die ik heb opgedaan is hiermee beschikbaar voor alle buurtbewoners en wijkverenigingen. Lees: [Breng je buurt in kaart en doe er wat mee](https://tauvicr.wordpress.com/2021/11/20/breng-je-buurt-in-kaart-en-doe-er-wat-mee/)
