@@ -17,7 +17,9 @@ Hoe gaat dit werken:
 Ambities: 
 * De speelterreinen op de kaart zetten en advies over betere indeling
 * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
+* Wandelroutes met mogelijkheden voor ontmoeting
 * Voorzieningen voor ouderen (locatie en bereikbaarheid)
+* Sociale veiligheid (paden, verlichting)
 * Verkeersveiligheid
 
 # Speelterreinen
