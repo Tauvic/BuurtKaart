@@ -1,4 +1,4 @@
-# BuurtKaart (breng je buurt in kaart en vebeter de leefomgeving)
+# BuurtKaart (breng je buurt in kaart en verbeter de leefomgeving)
 
 
 Met de Omgevingswet krijgen burgers nieuwe mogelijkheden om invloed uit te oefenen op beslissingen over hun leefomgeving. 
