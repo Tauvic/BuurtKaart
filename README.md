@@ -54,4 +54,6 @@ Vragen en informatie behoefte:
 
 De speelterreinen in de gemeente Ermelo staan nu op OpenStreetMap je kan ze nu ook makkelijk terug vinden in [Mapcomplete](https://mapcomplete.osm.be/playgrounds.html?z=16&lat=52.29508&lon=5.608949&language=nl#welcome) en met de gratis [OSMAnd App](https://osmand.net/). Een eerste versie van een drie dimensionale kaart toont de buurt vanuit het gezichtpunt van een kind. zo kan je al goed een indruk krijgen van de bereikbaarheid en de verdeling.
 
+Ik werk nu aan het nog duidelijker maken van de bereikbaarheid door visualisatie.
+
 [![Kaart](https://tauvicr.files.wordpress.com/2021/11/3d_kaart.png?w=2046)](https://tauvic.github.io/BuurtKaart/Qgis2threejs/index.html)
