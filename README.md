@@ -8,8 +8,12 @@ Met de juiste data wordt bewonersparticipatie wél een succes . Lees meer: [Burg
 
 ![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png?w=2048)
 
-Breng je buurt in kaart en gebruik deze informatie om de leefbaarheid te verbeteren.
-Ondersteunen van burgerparticipatie door betere informatie.
+Hoe gaat dit werken:
+* Breng je buurt in kaart
+* Ondersteunen van burgerparticipatie door betere informatie.
+* Gebruik deze informatie om de leefbaarheid te verbeteren (overleg met de gemeente).
+* Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website
+* Deel deze informatie op OpenStreetMap zodat ook anderen Apps en Web toepassingen kunnen ontwikkelen
 
 Eerste toepassing: De speelterreinen op de kaart zetten en advies over betere indeling
 
