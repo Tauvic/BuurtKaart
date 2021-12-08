@@ -11,7 +11,7 @@ Hoe gaat dit werken:
 * Zet een werkgroepje op met vrijwilligers
 * Breng je buurt in kaart (verzamel informatie van de gemeente, loop rond en noteer)
 * Gebruik deze informatie om de leefbaarheid te verbeteren (overleg met de gemeente).
-* Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website
+* Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website ([wikie](https://github.com/Tauvic/BuurtKaart/wiki))
 * Deel deze informatie op OpenStreetMap zodat ook anderen Apps en Web toepassingen kunnen ontwikkelen
 
 Ambities: 
@@ -58,3 +58,4 @@ De speelterreinen in de gemeente Ermelo staan nu op OpenStreetMap je kan ze nu o
 Ik werk nu aan het nog duidelijker maken van de bereikbaarheid door visualisatie.
 
 [![Kaart](https://tauvicr.files.wordpress.com/2021/11/3d_kaart.png?w=2046)](https://tauvic.github.io/BuurtKaart/Qgis2threejs/index.html)
+Klik op de kaart voor de 3D weergave
