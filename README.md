@@ -11,7 +11,8 @@ Hoe gaat dit werken:
 * Lees je in op dit onderwerp (zie links naar artikelen)
 * Zet een werkgroepje op met vrijwilligers
 * Breng je buurt in kaart (verzamel informatie van de gemeente, loop rond en noteer)
-* Gebruik deze informatie om de leefbaarheid te verbeteren (overleg met de gemeente).
+* De BuurtKaart genereerd niet alleen kaarten maar ook analyses, lijsten en overzichten
+* Gebruik deze informatie als argumentatie om de leefbaarheid te verbeteren (overleg met de gemeente).
 * Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website ([wikie](https://github.com/Tauvic/BuurtKaart/wiki))
 * Deel deze informatie op OpenStreetMap zodat ook anderen Apps en Web toepassingen kunnen ontwikkelen
 
