@@ -26,7 +26,7 @@ Ambities:
 
 # Speelterreinen
 
-![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png?w=2048)
+![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png?w=2048) 
 
 Als voorbeeld beschrijf ik hoe je de speelvoorzieningen in de wijk kan inventariseren en vergelijken met de norm om hiermee verbetervoorstellen op te stellen. 
 De kennis die ik heb opgedaan is hiermee beschikbaar voor alle buurtbewoners en wijkverenigingen. Lees: [Breng je buurt in kaart en doe er wat mee](https://tauvicr.wordpress.com/2021/11/20/breng-je-buurt-in-kaart-en-doe-er-wat-mee/)
