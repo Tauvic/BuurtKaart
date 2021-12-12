@@ -1,13 +1,19 @@
 # BuurtKaart (breng je buurt in kaart en verbeter de leefomgeving)
 
-
 Met de Omgevingswet krijgen burgers nieuwe mogelijkheden om invloed uit te oefenen op beslissingen over hun leefomgeving. 
 Burgerparticipatie is een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
-Dit geeft de indruk dat er nog maar weinig bij te sturen valt.
+Dit geeft de indruk dat er nog maar weinig bij te sturen valt. Met de juiste data en de **BuurtKaart** wordt bewonersparticipatie wél een succes./Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
 
-Met de juiste data en de **BuurtKaart** wordt bewonersparticipatie wél een succes./Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
+Burgerparticipatie nieuwe stijl: De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving
 
-Hoe gaat dit werken:
+Het proces in het kort:
+* Verzamel informatie en breng je eigen buurt in kaart
+* Analyseer de situatie en trek conclusies
+* Verbeter samen met de gemeente de buurt 
+*  Deel de informatie met anderen
+
+# Hoe gaat dit werken
+
 * Lees je in op dit onderwerp (zie links naar artikelen)
 * Zet een werkgroepje op met vrijwilligers
 * Breng je buurt in kaart (verzamel informatie van de gemeente, loop rond en noteer)
