@@ -7,10 +7,10 @@ Dit geeft de indruk dat er nog maar weinig bij te sturen valt. Met de juiste dat
 Burgerparticipatie nieuwe stijl: De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving
 
 Het proces in het kort:
-* Verzamel informatie en breng je eigen buurt in kaart
+* Verzamel informatie over je omgeving en breng jdaarmee eigen buurt in kaart
 * Analyseer de situatie en trek conclusies
-* Verbeter samen met de gemeente de buurt 
-*  Deel de informatie met anderen
+* Verbeter de buurt (met vrijwilliger, samen met de gemeente) 
+* Deel de informatie met anderen
 
 # Hoe gaat dit werken
 
