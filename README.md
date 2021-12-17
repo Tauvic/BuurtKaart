@@ -1,16 +1,24 @@
 # BuurtKaart (breng je buurt in kaart en verbeter de leefomgeving)
 
-
 Met de Omgevingswet krijgen burgers nieuwe mogelijkheden om invloed uit te oefenen op beslissingen over hun leefomgeving. 
 Burgerparticipatie is een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
-Dit geeft de indruk dat er nog maar weinig bij te sturen valt.
-Met de juiste data wordt bewonersparticipatie wél een succes . Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
+Dit geeft de indruk dat er nog maar weinig bij te sturen valt. Met de juiste data en de **BuurtKaart** wordt bewonersparticipatie wél een succes./Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
 
-Hoe gaat dit werken:
+Burgerparticipatie nieuwe stijl: De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving
+
+Het proces in het kort:
+* Verzamel informatie over je omgeving en breng je buurt in kaart (zichtbaar maken)
+* Analyseer de situatie en trek conclusies (inzicht)
+* Verbeter de buurt (acties met vrijwilligers, samen met de gemeente) 
+* Deel de informatie met anderen (grotere plaatje)
+
+# Hoe gaat dit werken
+
 * Lees je in op dit onderwerp (zie links naar artikelen)
 * Zet een werkgroepje op met vrijwilligers
 * Breng je buurt in kaart (verzamel informatie van de gemeente, loop rond en noteer)
-* Gebruik deze informatie om de leefbaarheid te verbeteren (overleg met de gemeente).
+* De BuurtKaart genereerd niet alleen kaarten maar ook analyses, lijsten en overzichten
+* Gebruik deze informatie als argumentatie om de leefbaarheid te verbeteren (overleg met de gemeente).
 * Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website ([wikie](https://github.com/Tauvic/BuurtKaart/wiki))
 * Deel deze informatie op OpenStreetMap zodat ook anderen Apps en Web toepassingen kunnen ontwikkelen
 
@@ -24,8 +32,7 @@ Ambities:
 
 # Speelterreinen
 
-![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png?w=2048)
-
+![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png) 
 
 Als voorbeeld beschrijf ik hoe je de speelvoorzieningen in de wijk kan inventariseren en vergelijken met de norm om hiermee verbetervoorstellen op te stellen. 
 De kennis die ik heb opgedaan is hiermee beschikbaar voor alle buurtbewoners en wijkverenigingen. Lees: [Breng je buurt in kaart en doe er wat mee](https://tauvicr.wordpress.com/2021/11/20/breng-je-buurt-in-kaart-en-doe-er-wat-mee/)
