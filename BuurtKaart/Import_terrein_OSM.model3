@@ -489,7 +489,7 @@
         <Option type="bool" name="outputs_collapsed" value="true"/>
         <Option type="bool" name="parameters_collapsed" value="true"/>
       </Option>
-      <Option type="QString" name="component_description" value="Refactor fields"/>
+      <Option type="QString" name="component_description" value="Refactor fields 1"/>
       <Option type="double" name="component_height" value="30"/>
       <Option type="double" name="component_pos_x" value="331.5"/>
       <Option type="double" name="component_pos_y" value="1417"/>
@@ -645,8 +645,8 @@
       </Option>
       <Option type="QString" name="component_description" value="Refactor fields"/>
       <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="158.5"/>
-      <Option type="double" name="component_pos_y" value="1686"/>
+      <Option type="double" name="component_pos_x" value="157.5"/>
+      <Option type="double" name="component_pos_y" value="1671.5"/>
       <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
       <Option type="QString" name="id" value="native:refactorfields_2"/>
@@ -953,96 +953,6 @@
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="native:spatialiteexecutesqlregistered_1">
-      <Option type="bool" name="active" value="true"/>
-      <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:spatialiteexecutesqlregistered"/>
-      <Option type="QString" name="color" value=""/>
-      <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value="delete terrein_bereik;"/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="365.5"/>
-        <Option type="double" name="component_pos_y" value="1932"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
-      </Option>
-      <Option type="QString" name="component_description" value="SpatiaLite clear terrein_bereik"/>
-      <Option type="double" name="component_height" value="56.5"/>
-      <Option type="double" name="component_pos_x" value="166"/>
-      <Option type="double" name="component_pos_y" value="1930.75"/>
-      <Option type="double" name="component_width" value="200"/>
-      <Option type="List" name="dependencies">
-        <Option type="Map">
-          <Option type="QString" name="child_id" value="qgis:importintospatialite_1"/>
-          <Option type="QString" name="conditional_branch" value=""/>
-        </Option>
-      </Option>
-      <Option type="QString" name="id" value="native:spatialiteexecutesqlregistered_1"/>
-      <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="DATABASE">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="Staging"/>
-          </Option>
-        </Option>
-        <Option type="List" name="SQL">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="delete from terrein_bereik;"/>
-          </Option>
-        </Option>
-      </Option>
-    </Option>
-    <Option type="Map" name="native:spatialiteexecutesqlregistered_2">
-      <Option type="bool" name="active" value="true"/>
-      <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:spatialiteexecutesqlregistered"/>
-      <Option type="QString" name="color" value=""/>
-      <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value="bereken terrein_bereik"/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="368.5"/>
-        <Option type="double" name="component_pos_y" value="2077.75"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
-      </Option>
-      <Option type="QString" name="component_description" value="SpatiaLite insert terrein_bereik"/>
-      <Option type="double" name="component_height" value="96"/>
-      <Option type="double" name="component_pos_x" value="166"/>
-      <Option type="double" name="component_pos_y" value="2078.25"/>
-      <Option type="double" name="component_width" value="200"/>
-      <Option type="List" name="dependencies">
-        <Option type="Map">
-          <Option type="QString" name="child_id" value="native:spatialiteexecutesqlregistered_1"/>
-          <Option type="QString" name="conditional_branch" value=""/>
-        </Option>
-      </Option>
-      <Option type="QString" name="id" value="native:spatialiteexecutesqlregistered_2"/>
-      <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
-      <Option type="Map" name="params">
-        <Option type="List" name="DATABASE">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="Staging"/>
-          </Option>
-        </Option>
-        <Option type="List" name="SQL">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="insert into terrein_bereik&#xa;select g.id as gebied,&#xa;t.id as terrein,&#xa;1 as klasse,&#xa;intersection(g.geom,buffer(t.geom,150)) as geom&#xa;from gebied g,terrein t&#xa;where contains(g.geom,t.geom) and t.klasse1=1&#xa;&#xa;union&#xa;&#xa;select g.id as gebied,&#xa;t.id as terrein,&#xa;2 as klasse,&#xa;intersection(g.geom,buffer(t.geom,300)) as geom&#xa;from gebied g,terrein t&#xa;where contains(g.geom,t.geom) and t.klasse2=1&#xa;&#xa;union&#xa;&#xa;select g.id as gebied,&#xa;t.id as terrein,&#xa;3 as klasse,&#xa;buffer(t.geom,1000) as geom&#xa;from gebied g,terrein t&#xa;where contains(g.geom,t.geom) and t.klasse3=1"/>
-          </Option>
-        </Option>
-      </Option>
-    </Option>
     <Option type="Map" name="native:stringconcatenation_1">
       <Option type="bool" name="active" value="true"/>
       <Option name="alg_config"/>
@@ -1101,7 +1011,7 @@
       <Option type="QString" name="component_description" value="Export to SpatiaLite"/>
       <Option type="double" name="component_height" value="30"/>
       <Option type="double" name="component_pos_x" value="165.5"/>
-      <Option type="double" name="component_pos_y" value="1801.5"/>
+      <Option type="double" name="component_pos_y" value="1783.5"/>
       <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
       <Option type="QString" name="id" value="qgis:importintospatialite_1"/>
@@ -1376,6 +1286,18 @@
   </Option>
   <Option type="Map" name="designerParameterValues">
     <Option type="bool" name="VERBOSE_LOG" value="true"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="native:joinbynearest_1:raw">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option type="QString" name="fileEncoding" value="System"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option type="bool" name="active" value="true"/>
+          <Option type="int" name="type" value="1"/>
+          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
