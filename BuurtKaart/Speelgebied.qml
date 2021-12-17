@@ -250,7 +250,7 @@
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style fontFamily="Ubuntu" previewBkgrdColor="255,255,255,255" fontSizeUnit="Point" textOrientation="horizontal" fontItalic="0" textOpacity="1" fontSize="10" fontWordSpacing="0" fontWeight="50" fontKerning="1" blendMode="0" fontLetterSpacing="0" namedStyle="Regular" fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" useSubstitutions="0" fontStrikeout="0" textColor="0,0,0,255" fontUnderline="0" fieldName="concat('G',&quot;id&quot;,' (',&quot;kinderen&quot;,',',&quot;terreinen&quot;,')')" isExpression="1" multilineHeight="1" capitalization="0">
+      <text-style fontFamily="Ubuntu" previewBkgrdColor="255,255,255,255" fontSizeUnit="Point" textOrientation="horizontal" fontItalic="0" textOpacity="1" fontSize="10" fontWordSpacing="0" fontWeight="50" fontKerning="1" blendMode="0" fontLetterSpacing="0" namedStyle="Regular" fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" useSubstitutions="0" fontStrikeout="0" textColor="0,0,0,255" fontUnderline="0" fieldName="concat('G',&quot;id&quot;,' (',&quot;kinderen&quot;,'k,',&quot;terreinen&quot;,'s,',&quot;percentage_terrein&quot;,'%)')" isExpression="1" multilineHeight="1" capitalization="0">
         <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="0" bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferNoFill="1"/>
         <text-mask maskType="0" maskSizeUnits="MM" maskJoinStyle="128" maskOpacity="1" maskSize="1.5" maskedSymbolLayers="" maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
         <background shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeRotationType="0" shapeOpacity="1" shapeBorderWidthUnit="MM" shapeBlendMode="0" shapeSVGFile="" shapeSizeY="0" shapeRadiiY="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRotation="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeOffsetY="0" shapeBorderColor="128,128,128,255" shapeSizeX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeUnit="MM" shapeDraw="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeType="0" shapeSizeType="0" shapeOffsetUnit="MM" shapeFillColor="255,255,255,255">
@@ -434,14 +434,66 @@
     <field name="id" configurationFlags="None">
       <editWidget type="Range">
         <config>
-          <Option/>
+          <Option type="Map">
+            <Option name="AllowNull" type="bool" value="true"/>
+            <Option name="Max" type="int" value="2147483647"/>
+            <Option name="Min" type="int" value="-2147483648"/>
+            <Option name="Precision" type="int" value="0"/>
+            <Option name="Step" type="int" value="1"/>
+            <Option name="Style" type="QString" value="SpinBox"/>
+          </Option>
         </config>
       </editWidget>
     </field>
     <field name="terreinen" configurationFlags="None">
       <editWidget type="Range">
         <config>
+          <Option type="Map">
+            <Option name="AllowNull" type="bool" value="true"/>
+            <Option name="Max" type="int" value="2147483647"/>
+            <Option name="Min" type="int" value="-2147483642"/>
+            <Option name="Precision" type="int" value="0"/>
+            <Option name="Step" type="int" value="1"/>
+            <Option name="Style" type="QString" value="SpinBox"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="oppervlakte" configurationFlags="None">
+      <editWidget type="Range">
+        <config>
+          <Option type="Map">
+            <Option name="AllowNull" type="bool" value="true"/>
+            <Option name="Max" type="int" value="2147483647"/>
+            <Option name="Min" type="int" value="-2147483648"/>
+            <Option name="Precision" type="int" value="0"/>
+            <Option name="Step" type="int" value="1"/>
+            <Option name="Style" type="QString" value="SpinBox"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field name="oppervlakte_bewoond" configurationFlags="None">
+      <editWidget type="Range">
+        <config>
           <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="oppervlakte_terrein" configurationFlags="None">
+      <editWidget type="Range">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="percentage_terrein" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option type="Map">
+            <Option name="IsMultiline" type="bool" value="false"/>
+            <Option name="UseHtml" type="bool" value="false"/>
+          </Option>
         </config>
       </editWidget>
     </field>
@@ -451,43 +503,76 @@
     <alias field="color_id" name="" index="1"/>
     <alias field="id" name="" index="2"/>
     <alias field="terreinen" name="" index="3"/>
+    <alias field="oppervlakte" name="" index="4"/>
+    <alias field="oppervlakte_bewoond" name="" index="5"/>
+    <alias field="oppervlakte_terrein" name="" index="6"/>
+    <alias field="percentage_terrein" name="" index="7"/>
   </aliases>
   <defaults>
     <default field="kinderen" applyOnUpdate="0" expression=""/>
     <default field="color_id" applyOnUpdate="0" expression=""/>
     <default field="id" applyOnUpdate="0" expression=""/>
     <default field="terreinen" applyOnUpdate="0" expression=""/>
+    <default field="oppervlakte" applyOnUpdate="0" expression=""/>
+    <default field="oppervlakte_bewoond" applyOnUpdate="0" expression=""/>
+    <default field="oppervlakte_terrein" applyOnUpdate="0" expression=""/>
+    <default field="percentage_terrein" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
     <constraint field="kinderen" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
     <constraint field="color_id" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
     <constraint field="id" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
     <constraint field="terreinen" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="oppervlakte" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="oppervlakte_bewoond" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="oppervlakte_terrein" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="percentage_terrein" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint field="kinderen" exp="" desc=""/>
     <constraint field="color_id" exp="" desc=""/>
     <constraint field="id" exp="" desc=""/>
     <constraint field="terreinen" exp="" desc=""/>
+    <constraint field="oppervlakte" exp="" desc=""/>
+    <constraint field="oppervlakte_bewoond" exp="" desc=""/>
+    <constraint field="oppervlakte_terrein" exp="" desc=""/>
+    <constraint field="percentage_terrein" exp="" desc=""/>
   </constraintExpressions>
   <expressionfields>
     <field subType="0" comment="" name="terreinen" precision="0" typeName="integer" length="10" expression="aggregate(&#xa; layer:= 'Terrein',&#xa; aggregate:='count',&#xa; expression:='id',&#xa; filter:=intersects($geometry,geometry(@parent))&#xa; )" type="2"/>
+    <field subType="0" comment="" name="oppervlakte" precision="0" typeName="integer" length="10" expression="round($area)" type="2"/>
+    <field subType="0" comment="" name="oppervlakte_bewoond" precision="0" typeName="integer" length="10" expression="aggregate(&#xa;layer:='CBS_Statistiek',&#xa;aggregate:='sum',&#xa;expression:=round(area(intersection(geometry(@parent),$geometry))),&#xa;filter:=intersects(geometry(@parent),$geometry)&#xa;)" type="2"/>
+    <field subType="0" comment="" name="oppervlakte_terrein" precision="0" typeName="integer" length="10" expression="coalesce(aggregate(&#xa;layer:='Terrein',&#xa;aggregate:='sum',&#xa;expression:=round(area(intersection(geometry(@parent),$geometry))),&#xa;filter:=intersects(geometry(@parent),$geometry)&#xa;),0)" type="2"/>
+    <field subType="0" comment="" name="percentage_terrein" precision="0" typeName="double precision" length="-1" expression="round((&quot;oppervlakte_terrein&quot; / &quot;oppervlakte_bewoond&quot;) * 100,1)" type="6"/>
   </expressionfields>
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
   <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;kinderen&quot;" sortOrder="1">
     <columns>
-      <column hidden="0" name="id" width="140" type="field"/>
+      <column hidden="1" name="id" width="140" type="field"/>
       <column hidden="0" name="kinderen" width="229" type="field"/>
-      <column hidden="0" name="terreinen" width="200" type="field"/>
-      <column hidden="0" name="color_id" width="246" type="field"/>
+      <column hidden="0" name="terreinen" width="160" type="field"/>
+      <column hidden="0" name="percentage_terrein" width="283" type="field"/>
+      <column hidden="0" name="oppervlakte" width="200" type="field"/>
+      <column hidden="0" name="oppervlakte_bewoond" width="338" type="field"/>
+      <column hidden="0" name="oppervlakte_terrein" width="318" type="field"/>
+      <column hidden="1" name="color_id" width="246" type="field"/>
       <column hidden="1" width="-1" type="actions"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
     <rowstyles/>
-    <fieldstyles/>
+    <fieldstyles>
+      <fieldstyle fieldname="percentage_terrein">
+        <style background_color="#fb9a99" name="Te laag" rule="@value &lt; 3" background_color_alpha="255">
+          <font style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+        </style>
+        <style background_color="#9ad871" name="Goed" rule="@value >=3" background_color_alpha="255">
+          <font style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
+        </style>
+      </fieldstyle>
+    </fieldstyles>
   </conditionalstyles>
   <storedexpressions/>
   <editform tolerant="1"></editform>
@@ -514,19 +599,35 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="color_id"/>
-    <field editable="1" name="id"/>
-    <field editable="1" name="kinderen"/>
+    <field editable="0" name="area"/>
+    <field editable="0" name="area_terrein"/>
+    <field editable="0" name="color_id"/>
+    <field editable="0" name="id"/>
+    <field editable="0" name="kinderen"/>
+    <field editable="0" name="oppervlakte"/>
+    <field editable="0" name="oppervlakte_bewoond"/>
+    <field editable="0" name="oppervlakte_terrein"/>
+    <field editable="0" name="percentage"/>
+    <field editable="0" name="percentage_terrein"/>
     <field editable="0" name="speelterrein"/>
     <field editable="0" name="speelterreinen"/>
+    <field editable="0" name="terrein_area"/>
     <field editable="0" name="terreinen"/>
   </editable>
   <labelOnTop>
+    <field name="area" labelOnTop="0"/>
+    <field name="area_terrein" labelOnTop="0"/>
     <field name="color_id" labelOnTop="0"/>
     <field name="id" labelOnTop="0"/>
     <field name="kinderen" labelOnTop="0"/>
+    <field name="oppervlakte" labelOnTop="0"/>
+    <field name="oppervlakte_bewoond" labelOnTop="0"/>
+    <field name="oppervlakte_terrein" labelOnTop="0"/>
+    <field name="percentage" labelOnTop="0"/>
+    <field name="percentage_terrein" labelOnTop="0"/>
     <field name="speelterrein" labelOnTop="0"/>
     <field name="speelterreinen" labelOnTop="0"/>
+    <field name="terrein_area" labelOnTop="0"/>
     <field name="terreinen" labelOnTop="0"/>
   </labelOnTop>
   <dataDefinedFieldProperties/>
