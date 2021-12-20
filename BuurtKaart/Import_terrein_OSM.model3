@@ -1027,8 +1027,8 @@
         </Option>
         <Option type="List" name="DATABASE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="/home/iccdev/BuurtKaart/database/Staging"/>
+            <Option type="QString" name="expression" value=" concat(@project_folder,'/database/Staging')"/>
+            <Option type="int" name="source" value="3"/>
           </Option>
         </Option>
         <Option type="List" name="DROP_STRING_LENGTH">
@@ -1122,8 +1122,8 @@
         </Option>
         <Option type="List" name="DATABASE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="/home/iccdev/BuurtKaart/database/Staging"/>
+            <Option type="QString" name="expression" value=" concat(@project_folder,'/database/Staging')"/>
+            <Option type="int" name="source" value="3"/>
           </Option>
         </Option>
         <Option type="List" name="DROP_STRING_LENGTH">

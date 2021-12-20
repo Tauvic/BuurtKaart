@@ -1,28 +1,28 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyLocal="1" version="3.16.3-Hannover" simplifyDrawingTol="1" labelsEnabled="1" readOnly="0" minScale="50000" simplifyMaxScale="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="1" maxScale="0" simplifyAlgorithm="0" simplifyDrawingHints="1">
+<qgis simplifyLocal="1" version="3.16.3-Hannover" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="1" simplifyDrawingHints="1" labelsEnabled="1" simplifyMaxScale="1" maxScale="0" simplifyDrawingTol="1" minScale="15000" simplifyAlgorithm="0" readOnly="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal durationUnit="min" startExpression="" startField="" durationField="" mode="0" accumulate="0" fixedDuration="0" enabled="0" endField="" endExpression="">
+  <temporal endExpression="" durationUnit="min" durationField="" mode="0" endField="" accumulate="0" fixedDuration="0" enabled="0" startField="" startExpression="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 type="RuleRenderer" symbollevels="0" forceraster="0" enableorderby="0">
+  <renderer-v2 type="RuleRenderer" forceraster="0" symbollevels="0" enableorderby="0">
     <rules key="{8851069c-6354-4105-b54a-c0b92c5c6f73}">
-      <rule key="{1ddf7d79-8816-484b-855c-17425e78e582}" label="Ondergrond" symbol="0"/>
-      <rule filter="&quot;klasse1&quot; = 1" key="{f7423f5c-9f7b-43ab-85c7-0f3ab0ae0a3a}" label="0-6" symbol="1"/>
-      <rule filter="&quot;klasse2&quot; = 1" key="{84150906-c08a-4cc9-adf8-9c8fe8804c93}" label="6-12" symbol="2"/>
-      <rule filter="&quot;klasse3&quot; = 1" key="{2c2bf2c3-a8a5-452a-87dc-b6fea3742148}" label="12-17" symbol="3"/>
-      <rule filter="&quot;klasse3&quot; = 1 and &quot;klasse1&quot;=0 and &quot;klasse2&quot;=0" scalemaxdenom="100000" key="{5862d45e-d44f-4caa-9623-c0e60625530e}" scalemindenom="1000" label="12-17 exclusief" symbol="4"/>
-      <rule filter="klasse1 is null or klasse2 is null or klasse3 is null" key="{56746eb4-75ff-4bdd-95b5-69400aa0b900}" label="onbekend" symbol="5"/>
+      <rule label="Ondergrond" key="{1ddf7d79-8816-484b-855c-17425e78e582}" symbol="0"/>
+      <rule label="Onbekend" key="{c757b1c2-8cdb-435b-94c3-35849aaa0e0a}" symbol="1" filter="&quot;klasse1&quot; is null or &quot;klasse2&quot; is null or &quot;klasse3&quot; is null"/>
+      <rule label="0-6" key="{f7423f5c-9f7b-43ab-85c7-0f3ab0ae0a3a}" symbol="2" filter="&quot;klasse1&quot; = 1"/>
+      <rule label="6-12" key="{84150906-c08a-4cc9-adf8-9c8fe8804c93}" symbol="3" filter="&quot;klasse2&quot; = 1"/>
+      <rule label="12-17" key="{2c2bf2c3-a8a5-452a-87dc-b6fea3742148}" symbol="4" filter="&quot;klasse3&quot; = 1"/>
+      <rule scalemaxdenom="100000" label="12-17 exclusief" key="{8b162f26-3de2-41e9-92d5-d87c1ad216b3}" scalemindenom="1000" symbol="5" filter="&quot;klasse3&quot; = 1 and &quot;klasse1&quot;=0 and &quot;klasse2&quot;=0"/>
     </rules>
     <symbols>
-      <symbol type="fill" name="0" alpha="1" clip_to_extent="1" force_rhr="0">
-        <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+      <symbol type="fill" name="0" force_rhr="0" alpha="1" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="243,166,178,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -43,8 +43,30 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="fill" name="1" alpha="1" clip_to_extent="1" force_rhr="0">
-        <layer pass="0" class="CentroidFill" enabled="1" locked="0">
+      <symbol type="fill" name="1" force_rhr="0" alpha="1" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="141,90,153,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.26" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="solid" k="style"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol type="fill" name="2" force_rhr="0" alpha="1" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="CentroidFill">
           <prop v="0" k="clip_on_current_part_only"/>
           <prop v="0" k="clip_points"/>
           <prop v="1" k="point_on_all_parts"/>
@@ -56,8 +78,8 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <symbol type="marker" name="@1@0" alpha="1" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+          <symbol type="marker" name="@2@0" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
               <prop v="34" k="angle"/>
               <prop v="1,255,77,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -95,8 +117,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol type="fill" name="2" alpha="1" clip_to_extent="1" force_rhr="0">
-        <layer pass="0" class="CentroidFill" enabled="1" locked="0">
+      <symbol type="fill" name="3" force_rhr="0" alpha="1" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="CentroidFill">
           <prop v="0" k="clip_on_current_part_only"/>
           <prop v="0" k="clip_points"/>
           <prop v="1" k="point_on_all_parts"/>
@@ -108,8 +130,8 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <symbol type="marker" name="@2@0" alpha="1" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+          <symbol type="marker" name="@3@0" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="184,8,8,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -161,8 +183,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol type="fill" name="3" alpha="1" clip_to_extent="1" force_rhr="0">
-        <layer pass="0" class="CentroidFill" enabled="1" locked="0">
+      <symbol type="fill" name="4" force_rhr="0" alpha="1" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="CentroidFill">
           <prop v="0" k="clip_on_current_part_only"/>
           <prop v="0" k="clip_points"/>
           <prop v="1" k="point_on_all_parts"/>
@@ -174,8 +196,8 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <symbol type="marker" name="@3@0" alpha="1" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+          <symbol type="marker" name="@4@0" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="253,226,14,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -205,8 +227,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol type="fill" name="4" alpha="1" clip_to_extent="1" force_rhr="0">
-        <layer pass="0" class="CentroidFill" enabled="1" locked="0">
+      <symbol type="fill" name="5" force_rhr="0" alpha="1" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="CentroidFill">
           <prop v="0" k="clip_on_current_part_only"/>
           <prop v="0" k="clip_points"/>
           <prop v="1" k="point_on_all_parts"/>
@@ -218,8 +240,8 @@
               <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
-          <symbol type="marker" name="@4@0" alpha="1" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+          <symbol type="marker" name="@5@0" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="254,219,19,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -249,38 +271,16 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol type="fill" name="5" alpha="1" clip_to_extent="1" force_rhr="0">
-        <layer pass="0" class="SimpleFill" enabled="1" locked="0">
-          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="141,90,153,255" k="color"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.26" k="outline_width"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="solid" k="style"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" name="name" value=""/>
-              <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
     </symbols>
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style capitalization="0" previewBkgrdColor="255,255,255,255" fieldName="concat(&quot;min_age&quot;,',',&quot;max_age&quot;)" fontSize="10" textOpacity="1" allowHtml="0" textColor="0,0,0,255" namedStyle="Regular" fontStrikeout="0" fontUnderline="0" multilineHeight="1" textOrientation="horizontal" fontWordSpacing="0" fontSizeUnit="Point" fontWeight="50" fontLetterSpacing="0" blendMode="0" fontItalic="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="1" fontFamily="Ubuntu" fontKerning="1" useSubstitutions="0">
-        <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255" bufferSize="1" bufferSizeUnits="MM" bufferNoFill="1" bufferDraw="0" bufferJoinStyle="128" bufferBlendMode="0" bufferOpacity="1"/>
-        <text-mask maskSize="1.5" maskSizeUnits="MM" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskOpacity="1" maskType="0" maskEnabled="0"/>
-        <background shapeRadiiX="0" shapeRotationType="0" shapeType="0" shapeRadiiY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeSizeType="0" shapeBorderColor="128,128,128,255" shapeOpacity="1" shapeBlendMode="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeOffsetUnit="MM" shapeSizeX="0" shapeDraw="0" shapeBorderWidth="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeJoinStyle="64" shapeSVGFile="" shapeOffsetX="0" shapeRotation="0" shapeSizeUnit="MM">
-          <symbol type="marker" name="markerSymbol" alpha="1" clip_to_extent="1" force_rhr="0">
-            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+      <text-style textOrientation="horizontal" fontFamily="Ubuntu" isExpression="1" allowHtml="0" blendMode="0" useSubstitutions="0" fontKerning="1" fontSize="10" textOpacity="1" multilineHeight="1" namedStyle="Regular" textColor="0,0,0,255" previewBkgrdColor="255,255,255,255" fontUnderline="0" fieldName="concat(&quot;min_age&quot;,',',&quot;max_age&quot;)" fontItalic="0" fontStrikeout="0" fontSizeUnit="Point" fontWeight="50" capitalization="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontLetterSpacing="0" fontWordSpacing="0">
+        <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferDraw="0" bufferNoFill="1" bufferBlendMode="0" bufferSize="1" bufferSizeUnits="MM"/>
+        <text-mask maskEnabled="0" maskType="0" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskSize="1.5" maskOpacity="1" maskJoinStyle="128"/>
+        <background shapeType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetX="0" shapeOffsetY="0" shapeRadiiX="0" shapeBlendMode="0" shapeSVGFile="" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeSizeX="0" shapeRotation="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeBorderWidth="0" shapeJoinStyle="64" shapeFillColor="255,255,255,255" shapeOffsetUnit="MM" shapeRotationType="0" shapeRadiiY="0" shapeBorderColor="128,128,128,255" shapeSizeY="0" shapeSizeUnit="MM" shapeRadiiUnit="MM" shapeDraw="0" shapeBorderWidthUnit="MM">
+          <symbol type="marker" name="markerSymbol" force_rhr="0" alpha="1" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
               <prop v="0" k="angle"/>
               <prop v="213,180,60,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -309,7 +309,7 @@
             </layer>
           </symbol>
         </background>
-        <shadow shadowRadius="1.5" shadowOffsetDist="1" shadowScale="100" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowOffsetAngle="135" shadowRadiusUnit="MM" shadowOpacity="0.7" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowColor="0,0,0,255" shadowBlendMode="6" shadowOffsetUnit="MM" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetGlobal="1" shadowDraw="0"/>
+        <shadow shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowColor="0,0,0,255" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowDraw="0" shadowUnder="0" shadowOffsetDist="1" shadowBlendMode="6" shadowOffsetAngle="135"/>
         <dd_properties>
           <Option type="Map">
             <Option type="QString" name="name" value=""/>
@@ -319,9 +319,9 @@
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format rightDirectionSymbol=">" autoWrapLength="0" wrapChar="" reverseDirectionSymbol="0" addDirectionSymbol="0" placeDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" multilineAlign="3" plussign="0" decimals="3" formatNumbers="0" leftDirectionSymbol="&lt;"/>
-      <placement predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" offsetType="0" placement="1" overrunDistanceUnit="MM" priority="5" offsetUnits="MM" polygonPlacementFlags="2" preserveRotation="1" repeatDistanceUnits="MM" centroidWhole="0" geometryGeneratorType="PointGeometry" dist="0" geometryGeneratorEnabled="0" geometryGenerator="" placementFlags="10" distUnits="MM" centroidInside="0" maxCurvedCharAngleIn="25" repeatDistance="0" overrunDistance="0" layerType="PolygonGeometry" distMapUnitScale="3x:0,0,0,0,0,0" yOffset="5" lineAnchorPercent="0.5" xOffset="0" fitInPolygonOnly="0" quadOffset="4" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" lineAnchorType="0" maxCurvedCharAngleOut="-25"/>
-      <rendering zIndex="0" scaleVisibility="0" mergeLines="0" scaleMin="0" fontMaxPixelSize="10000" obstacleFactor="1" fontLimitPixelSize="0" labelPerPart="0" minFeatureSize="0" fontMinPixelSize="3" limitNumLabels="0" obstacle="1" obstacleType="1" maxNumLabels="2000" upsidedownLabels="0" drawLabels="1" scaleMax="0" displayAll="0"/>
+      <text-format reverseDirectionSymbol="0" plussign="0" useMaxLineLengthForAutoWrap="1" multilineAlign="3" rightDirectionSymbol=">" wrapChar="" decimals="3" placeDirectionSymbol="0" formatNumbers="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" autoWrapLength="0"/>
+      <placement overrunDistance="0" yOffset="5" centroidWhole="0" polygonPlacementFlags="2" placement="1" dist="0" fitInPolygonOnly="0" overrunDistanceUnit="MM" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25" rotationAngle="0" repeatDistance="0" distMapUnitScale="3x:0,0,0,0,0,0" layerType="PolygonGeometry" priority="5" xOffset="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" quadOffset="4" distUnits="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" maxCurvedCharAngleOut="-25" lineAnchorType="0" geometryGenerator="" geometryGeneratorEnabled="0" geometryGeneratorType="PointGeometry" offsetUnits="MM" preserveRotation="1" repeatDistanceUnits="MM" centroidInside="0" lineAnchorPercent="0.5"/>
+      <rendering fontMinPixelSize="3" mergeLines="0" upsidedownLabels="0" drawLabels="1" obstacle="1" labelPerPart="0" scaleMax="0" fontMaxPixelSize="10000" displayAll="0" scaleVisibility="0" limitNumLabels="0" obstacleFactor="1" obstacleType="1" zIndex="0" scaleMin="0" maxNumLabels="2000" minFeatureSize="0" fontLimitPixelSize="0"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" name="name" value=""/>
@@ -340,7 +340,7 @@
           <Option type="bool" name="drawToAllParts" value="false"/>
           <Option type="QString" name="enabled" value="0"/>
           <Option type="QString" name="labelAnchorPoint" value="point_on_exterior"/>
-          <Option type="QString" name="lineSymbol" value="&lt;symbol type=&quot;line&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot;>&lt;layer pass=&quot;0&quot; class=&quot;SimpleLine&quot; enabled=&quot;1&quot; locked=&quot;0&quot;>&lt;prop v=&quot;0&quot; k=&quot;align_dash_pattern&quot;/>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;dash_pattern_offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;dash_pattern_offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; name=&quot;name&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; name=&quot;type&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
+          <Option type="QString" name="lineSymbol" value="&lt;symbol type=&quot;line&quot; name=&quot;symbol&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot;>&lt;layer locked=&quot;0&quot; enabled=&quot;1&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;prop v=&quot;0&quot; k=&quot;align_dash_pattern&quot;/>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;dash_pattern_offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;dash_pattern_offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; name=&quot;name&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; name=&quot;type&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
           <Option type="double" name="minLength" value="0"/>
           <Option type="QString" name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0"/>
           <Option type="QString" name="minLengthUnit" value="MM"/>
@@ -356,10 +356,10 @@
   </labeling>
   <customproperties>
     <property key="OnConvertFormatRegeneratePrimaryKey" value="false"/>
-    <property key="dualview/previewExpressions">
-      <value>"name"</value>
-    </property>
+    <property key="dualview/previewExpressions" value="&quot;name&quot;"/>
     <property key="embeddedWidgets/count" value="0"/>
+    <property key="qgis2web/Interactive" value="true"/>
+    <property key="qgis2web/Visible" value="true"/>
     <property key="variableNames">
       <value>qgis_25d_angle</value>
       <value>qgis_25d_height</value>
@@ -373,12 +373,12 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory spacingUnit="MM" maxScaleDenominator="1e+8" showAxis="1" minimumSize="0" barWidth="5" penWidth="0" scaleBasedVisibility="0" width="15" lineSizeScale="3x:0,0,0,0,0,0" spacing="5" height="15" rotationOffset="270" labelPlacementMethod="XHeight" opacity="1" lineSizeType="MM" penColor="#000000" spacingUnitScale="3x:0,0,0,0,0,0" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" enabled="0" diagramOrientation="Up" sizeType="MM" minScaleDenominator="0" direction="0" backgroundColor="#ffffff" backgroundAlpha="255" scaleDependency="Area">
-      <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+    <DiagramCategory height="15" spacing="5" sizeScale="3x:0,0,0,0,0,0" direction="0" spacingUnitScale="3x:0,0,0,0,0,0" minimumSize="0" minScaleDenominator="0" maxScaleDenominator="1e+8" labelPlacementMethod="XHeight" barWidth="5" lineSizeType="MM" scaleBasedVisibility="0" enabled="0" opacity="1" scaleDependency="Area" penColor="#000000" spacingUnit="MM" sizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" penWidth="0" penAlpha="255" width="15" showAxis="1" diagramOrientation="Up" backgroundAlpha="255" rotationOffset="270">
+      <fontProperties style="" description="Ubuntu,11,-1,5,50,0,0,0,0,0"/>
       <attribute label="" field="" color="#000000"/>
       <axisSymbol>
-        <symbol type="line" name="" alpha="1" clip_to_extent="1" force_rhr="0">
-          <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+        <symbol type="line" name="" force_rhr="0" alpha="1" clip_to_extent="1">
+          <layer locked="0" enabled="1" pass="0" class="SimpleLine">
             <prop v="0" k="align_dash_pattern"/>
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
@@ -412,7 +412,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings showAll="1" priority="0" obstacle="0" zIndex="0" dist="0" linePlacementFlags="18" placement="1">
+  <DiagramLayerSettings showAll="1" obstacle="0" dist="0" linePlacementFlags="18" priority="0" zIndex="0" placement="1">
     <properties>
       <Option type="Map">
         <Option type="QString" name="name" value=""/>
@@ -434,161 +434,161 @@
   <legend type="default-vector"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field name="id" configurationFlags="None">
+    <field configurationFlags="None" name="id">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="osm_way_id" configurationFlags="None">
+    <field configurationFlags="None" name="osm_way_id">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="name" configurationFlags="None">
+    <field configurationFlags="None" name="name">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="operator" configurationFlags="None">
+    <field configurationFlags="None" name="operator">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="ref_gem" configurationFlags="None">
+    <field configurationFlags="None" name="ref_gem">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="access" configurationFlags="None">
+    <field configurationFlags="None" name="access">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="surface" configurationFlags="None">
+    <field configurationFlags="None" name="surface">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="lit" configurationFlags="None">
+    <field configurationFlags="None" name="lit">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="barrier" configurationFlags="None">
+    <field configurationFlags="None" name="barrier">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="min_age" configurationFlags="None">
+    <field configurationFlags="None" name="min_age">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="max_age" configurationFlags="None">
+    <field configurationFlags="None" name="max_age">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="image" configurationFlags="None">
+    <field configurationFlags="None" name="image">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="comment" configurationFlags="None">
+    <field configurationFlags="None" name="comment">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="other_tags" configurationFlags="None">
+    <field configurationFlags="None" name="other_tags">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="gm_code" configurationFlags="None">
+    <field configurationFlags="None" name="gm_code">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="gm_naam" configurationFlags="None">
+    <field configurationFlags="None" name="gm_naam">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="wk_code" configurationFlags="None">
+    <field configurationFlags="None" name="wk_code">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="wk_naam" configurationFlags="None">
+    <field configurationFlags="None" name="wk_naam">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="bu_code" configurationFlags="None">
+    <field configurationFlags="None" name="bu_code">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="bu_naam" configurationFlags="None">
+    <field configurationFlags="None" name="bu_naam">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="klasse1" configurationFlags="None">
+    <field configurationFlags="None" name="klasse1">
       <editWidget type="CheckBox">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="klasse2" configurationFlags="None">
+    <field configurationFlags="None" name="klasse2">
       <editWidget type="CheckBox">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="klasse3" configurationFlags="None">
+    <field configurationFlags="None" name="klasse3">
       <editWidget type="CheckBox">
         <config>
           <Option/>
@@ -597,135 +597,135 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias name="" index="0" field="id"/>
-    <alias name="" index="1" field="osm_way_id"/>
-    <alias name="" index="2" field="name"/>
-    <alias name="" index="3" field="operator"/>
-    <alias name="" index="4" field="ref_gem"/>
-    <alias name="" index="5" field="access"/>
-    <alias name="" index="6" field="surface"/>
-    <alias name="" index="7" field="lit"/>
-    <alias name="" index="8" field="barrier"/>
-    <alias name="" index="9" field="min_age"/>
-    <alias name="" index="10" field="max_age"/>
-    <alias name="" index="11" field="image"/>
-    <alias name="" index="12" field="comment"/>
-    <alias name="" index="13" field="other_tags"/>
-    <alias name="" index="14" field="gm_code"/>
-    <alias name="" index="15" field="gm_naam"/>
-    <alias name="" index="16" field="wk_code"/>
-    <alias name="" index="17" field="wk_naam"/>
-    <alias name="" index="18" field="bu_code"/>
-    <alias name="" index="19" field="bu_naam"/>
-    <alias name="" index="20" field="klasse1"/>
-    <alias name="" index="21" field="klasse2"/>
-    <alias name="" index="22" field="klasse3"/>
+    <alias name="" field="id" index="0"/>
+    <alias name="" field="osm_way_id" index="1"/>
+    <alias name="" field="name" index="2"/>
+    <alias name="" field="operator" index="3"/>
+    <alias name="" field="ref_gem" index="4"/>
+    <alias name="" field="access" index="5"/>
+    <alias name="" field="surface" index="6"/>
+    <alias name="" field="lit" index="7"/>
+    <alias name="" field="barrier" index="8"/>
+    <alias name="" field="min_age" index="9"/>
+    <alias name="" field="max_age" index="10"/>
+    <alias name="" field="image" index="11"/>
+    <alias name="" field="comment" index="12"/>
+    <alias name="" field="other_tags" index="13"/>
+    <alias name="" field="gm_code" index="14"/>
+    <alias name="" field="gm_naam" index="15"/>
+    <alias name="" field="wk_code" index="16"/>
+    <alias name="" field="wk_naam" index="17"/>
+    <alias name="" field="bu_code" index="18"/>
+    <alias name="" field="bu_naam" index="19"/>
+    <alias name="" field="klasse1" index="20"/>
+    <alias name="" field="klasse2" index="21"/>
+    <alias name="" field="klasse3" index="22"/>
   </aliases>
   <defaults>
-    <default expression="" applyOnUpdate="0" field="id"/>
-    <default expression="" applyOnUpdate="0" field="osm_way_id"/>
-    <default expression="" applyOnUpdate="0" field="name"/>
-    <default expression="" applyOnUpdate="0" field="operator"/>
-    <default expression="" applyOnUpdate="0" field="ref_gem"/>
-    <default expression="" applyOnUpdate="0" field="access"/>
-    <default expression="" applyOnUpdate="0" field="surface"/>
-    <default expression="" applyOnUpdate="0" field="lit"/>
-    <default expression="" applyOnUpdate="0" field="barrier"/>
-    <default expression="" applyOnUpdate="0" field="min_age"/>
-    <default expression="" applyOnUpdate="0" field="max_age"/>
-    <default expression="" applyOnUpdate="0" field="image"/>
-    <default expression="" applyOnUpdate="0" field="comment"/>
-    <default expression="" applyOnUpdate="0" field="other_tags"/>
-    <default expression="" applyOnUpdate="0" field="gm_code"/>
-    <default expression="" applyOnUpdate="0" field="gm_naam"/>
-    <default expression="" applyOnUpdate="0" field="wk_code"/>
-    <default expression="" applyOnUpdate="0" field="wk_naam"/>
-    <default expression="" applyOnUpdate="0" field="bu_code"/>
-    <default expression="" applyOnUpdate="0" field="bu_naam"/>
-    <default expression="" applyOnUpdate="0" field="klasse1"/>
-    <default expression="" applyOnUpdate="0" field="klasse2"/>
-    <default expression="" applyOnUpdate="0" field="klasse3"/>
+    <default field="id" expression="" applyOnUpdate="0"/>
+    <default field="osm_way_id" expression="" applyOnUpdate="0"/>
+    <default field="name" expression="" applyOnUpdate="0"/>
+    <default field="operator" expression="" applyOnUpdate="0"/>
+    <default field="ref_gem" expression="" applyOnUpdate="0"/>
+    <default field="access" expression="" applyOnUpdate="0"/>
+    <default field="surface" expression="" applyOnUpdate="0"/>
+    <default field="lit" expression="" applyOnUpdate="0"/>
+    <default field="barrier" expression="" applyOnUpdate="0"/>
+    <default field="min_age" expression="" applyOnUpdate="0"/>
+    <default field="max_age" expression="" applyOnUpdate="0"/>
+    <default field="image" expression="" applyOnUpdate="0"/>
+    <default field="comment" expression="" applyOnUpdate="0"/>
+    <default field="other_tags" expression="" applyOnUpdate="0"/>
+    <default field="gm_code" expression="" applyOnUpdate="0"/>
+    <default field="gm_naam" expression="" applyOnUpdate="0"/>
+    <default field="wk_code" expression="" applyOnUpdate="0"/>
+    <default field="wk_naam" expression="" applyOnUpdate="0"/>
+    <default field="bu_code" expression="" applyOnUpdate="0"/>
+    <default field="bu_naam" expression="" applyOnUpdate="0"/>
+    <default field="klasse1" expression="" applyOnUpdate="0"/>
+    <default field="klasse2" expression="" applyOnUpdate="0"/>
+    <default field="klasse3" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint unique_strength="1" notnull_strength="1" constraints="3" exp_strength="0" field="id"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="osm_way_id"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="name"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="operator"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="ref_gem"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="access"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="surface"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="lit"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="barrier"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="min_age"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="max_age"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="image"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="comment"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="other_tags"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="gm_code"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="gm_naam"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="wk_code"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="wk_naam"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="bu_code"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="bu_naam"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="klasse1"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="klasse2"/>
-    <constraint unique_strength="0" notnull_strength="0" constraints="0" exp_strength="0" field="klasse3"/>
+    <constraint exp_strength="0" unique_strength="1" field="id" constraints="3" notnull_strength="1"/>
+    <constraint exp_strength="0" unique_strength="0" field="osm_way_id" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="name" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="operator" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="ref_gem" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="access" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="surface" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="lit" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="barrier" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="min_age" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="max_age" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="image" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="comment" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="other_tags" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="gm_code" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="gm_naam" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="wk_code" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="wk_naam" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="bu_code" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="bu_naam" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="klasse1" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="klasse2" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" unique_strength="0" field="klasse3" constraints="0" notnull_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint exp="" desc="" field="id"/>
-    <constraint exp="" desc="" field="osm_way_id"/>
-    <constraint exp="" desc="" field="name"/>
-    <constraint exp="" desc="" field="operator"/>
-    <constraint exp="" desc="" field="ref_gem"/>
-    <constraint exp="" desc="" field="access"/>
-    <constraint exp="" desc="" field="surface"/>
-    <constraint exp="" desc="" field="lit"/>
-    <constraint exp="" desc="" field="barrier"/>
-    <constraint exp="" desc="" field="min_age"/>
-    <constraint exp="" desc="" field="max_age"/>
-    <constraint exp="" desc="" field="image"/>
-    <constraint exp="" desc="" field="comment"/>
-    <constraint exp="" desc="" field="other_tags"/>
-    <constraint exp="" desc="" field="gm_code"/>
-    <constraint exp="" desc="" field="gm_naam"/>
-    <constraint exp="" desc="" field="wk_code"/>
-    <constraint exp="" desc="" field="wk_naam"/>
-    <constraint exp="" desc="" field="bu_code"/>
-    <constraint exp="" desc="" field="bu_naam"/>
-    <constraint exp="" desc="" field="klasse1"/>
-    <constraint exp="" desc="" field="klasse2"/>
-    <constraint exp="" desc="" field="klasse3"/>
+    <constraint field="id" desc="" exp=""/>
+    <constraint field="osm_way_id" desc="" exp=""/>
+    <constraint field="name" desc="" exp=""/>
+    <constraint field="operator" desc="" exp=""/>
+    <constraint field="ref_gem" desc="" exp=""/>
+    <constraint field="access" desc="" exp=""/>
+    <constraint field="surface" desc="" exp=""/>
+    <constraint field="lit" desc="" exp=""/>
+    <constraint field="barrier" desc="" exp=""/>
+    <constraint field="min_age" desc="" exp=""/>
+    <constraint field="max_age" desc="" exp=""/>
+    <constraint field="image" desc="" exp=""/>
+    <constraint field="comment" desc="" exp=""/>
+    <constraint field="other_tags" desc="" exp=""/>
+    <constraint field="gm_code" desc="" exp=""/>
+    <constraint field="gm_naam" desc="" exp=""/>
+    <constraint field="wk_code" desc="" exp=""/>
+    <constraint field="wk_naam" desc="" exp=""/>
+    <constraint field="bu_code" desc="" exp=""/>
+    <constraint field="bu_naam" desc="" exp=""/>
+    <constraint field="klasse1" desc="" exp=""/>
+    <constraint field="klasse2" desc="" exp=""/>
+    <constraint field="klasse3" desc="" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;max_age&quot;" sortOrder="0">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;wk_code&quot;" sortOrder="0">
     <columns>
-      <column type="field" name="osm_way_id" width="-1" hidden="0"/>
-      <column type="field" name="name" width="579" hidden="0"/>
-      <column type="field" name="operator" width="-1" hidden="0"/>
-      <column type="field" name="min_age" width="-1" hidden="0"/>
-      <column type="field" name="max_age" width="-1" hidden="0"/>
-      <column type="field" name="barrier" width="-1" hidden="0"/>
-      <column type="field" name="other_tags" width="-1" hidden="0"/>
-      <column type="field" name="image" width="-1" hidden="0"/>
-      <column type="field" name="lit" width="-1" hidden="0"/>
-      <column type="field" name="surface" width="-1" hidden="0"/>
-      <column type="field" name="access" width="-1" hidden="0"/>
-      <column type="field" name="ref_gem" width="-1" hidden="0"/>
-      <column type="field" name="comment" width="-1" hidden="0"/>
-      <column type="field" name="gm_code" width="-1" hidden="0"/>
-      <column type="field" name="gm_naam" width="-1" hidden="0"/>
-      <column type="field" name="wk_code" width="-1" hidden="0"/>
-      <column type="field" name="wk_naam" width="-1" hidden="0"/>
-      <column type="field" name="bu_code" width="-1" hidden="0"/>
-      <column type="field" name="bu_naam" width="-1" hidden="0"/>
-      <column type="actions" width="-1" hidden="1"/>
-      <column type="field" name="klasse1" width="-1" hidden="0"/>
-      <column type="field" name="klasse2" width="-1" hidden="0"/>
-      <column type="field" name="klasse3" width="-1" hidden="0"/>
-      <column type="field" name="id" width="-1" hidden="0"/>
+      <column type="field" name="osm_way_id" hidden="0" width="-1"/>
+      <column type="field" name="name" hidden="0" width="579"/>
+      <column type="field" name="operator" hidden="0" width="-1"/>
+      <column type="field" name="min_age" hidden="0" width="-1"/>
+      <column type="field" name="max_age" hidden="0" width="-1"/>
+      <column type="field" name="barrier" hidden="0" width="-1"/>
+      <column type="field" name="other_tags" hidden="0" width="-1"/>
+      <column type="field" name="image" hidden="0" width="-1"/>
+      <column type="field" name="lit" hidden="0" width="-1"/>
+      <column type="field" name="surface" hidden="0" width="-1"/>
+      <column type="field" name="access" hidden="0" width="-1"/>
+      <column type="field" name="ref_gem" hidden="0" width="-1"/>
+      <column type="field" name="comment" hidden="0" width="-1"/>
+      <column type="field" name="gm_code" hidden="0" width="-1"/>
+      <column type="field" name="gm_naam" hidden="0" width="-1"/>
+      <column type="field" name="wk_code" hidden="0" width="-1"/>
+      <column type="field" name="wk_naam" hidden="0" width="-1"/>
+      <column type="field" name="bu_code" hidden="0" width="-1"/>
+      <column type="field" name="bu_naam" hidden="0" width="-1"/>
+      <column type="actions" hidden="1" width="-1"/>
+      <column type="field" name="klasse1" hidden="0" width="-1"/>
+      <column type="field" name="klasse2" hidden="0" width="-1"/>
+      <column type="field" name="klasse3" hidden="0" width="-1"/>
+      <column type="field" name="id" hidden="0" width="-1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -757,92 +757,92 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="access"/>
-    <field editable="1" name="addr:city"/>
-    <field editable="1" name="addr:housenumber"/>
-    <field editable="1" name="addr:postcode"/>
-    <field editable="1" name="addr:street"/>
-    <field editable="1" name="address"/>
-    <field editable="1" name="admin_level"/>
-    <field editable="1" name="aeroway"/>
-    <field editable="1" name="amenity"/>
-    <field editable="0" name="area"/>
-    <field editable="1" name="barrier"/>
-    <field editable="1" name="barrier_2"/>
-    <field editable="1" name="boundary"/>
-    <field editable="1" name="bu_code"/>
-    <field editable="1" name="bu_naam"/>
-    <field editable="1" name="building"/>
-    <field editable="1" name="comment"/>
-    <field editable="1" name="craft"/>
-    <field editable="1" name="description"/>
-    <field editable="1" name="designation"/>
-    <field editable="1" name="dog"/>
-    <field editable="1" name="geological"/>
-    <field editable="1" name="gm_code"/>
-    <field editable="1" name="gm_naam"/>
-    <field editable="1" name="highway"/>
-    <field editable="1" name="historic"/>
-    <field editable="1" name="id"/>
-    <field editable="1" name="image"/>
-    <field editable="1" name="image:0"/>
-    <field editable="1" name="image:1"/>
-    <field editable="1" name="image:2"/>
-    <field editable="1" name="image:3"/>
-    <field editable="1" name="image:4"/>
-    <field editable="1" name="image:5"/>
-    <field editable="1" name="image:6"/>
-    <field editable="1" name="image:7"/>
-    <field editable="1" name="image:9"/>
-    <field editable="1" name="is_in"/>
-    <field editable="1" name="klasse1"/>
-    <field editable="1" name="klasse2"/>
-    <field editable="1" name="klasse3"/>
-    <field editable="1" name="land_area"/>
-    <field editable="1" name="landuse"/>
-    <field editable="1" name="layer"/>
-    <field editable="1" name="leaf_type"/>
-    <field editable="1" name="leisure"/>
-    <field editable="1" name="lit"/>
-    <field editable="1" name="man_made"/>
-    <field editable="1" name="max_age"/>
-    <field editable="1" name="military"/>
-    <field editable="1" name="min_age"/>
-    <field editable="1" name="name"/>
-    <field editable="1" name="natural"/>
-    <field editable="1" name="office"/>
-    <field editable="1" name="operator"/>
-    <field editable="1" name="oppervlakte"/>
-    <field editable="1" name="osm_id"/>
-    <field editable="1" name="osm_way_id"/>
-    <field editable="1" name="other_tags"/>
-    <field editable="1" name="path"/>
-    <field editable="1" name="place"/>
-    <field editable="1" name="playground"/>
-    <field editable="1" name="playground:balancebeam"/>
-    <field editable="1" name="playground:basketswing"/>
-    <field editable="1" name="playground:climbingframe"/>
-    <field editable="1" name="playground:playhouse"/>
-    <field editable="1" name="playground:roundabout"/>
-    <field editable="1" name="playground:sandpit"/>
-    <field editable="1" name="playground:seesaw"/>
-    <field editable="1" name="playground:slide"/>
-    <field editable="1" name="playground:swing"/>
-    <field editable="1" name="playground:theme"/>
-    <field editable="1" name="playground:water"/>
-    <field editable="1" name="playground:zipwire"/>
-    <field editable="1" name="qc_id"/>
-    <field editable="1" name="ref"/>
-    <field editable="1" name="ref_gem"/>
-    <field editable="1" name="shop"/>
-    <field editable="1" name="sport"/>
-    <field editable="1" name="surface"/>
-    <field editable="1" name="tourism"/>
-    <field editable="1" name="type"/>
-    <field editable="1" name="wheelchair"/>
-    <field editable="1" name="wifi"/>
-    <field editable="1" name="wk_code"/>
-    <field editable="1" name="wk_naam"/>
+    <field name="access" editable="1"/>
+    <field name="addr:city" editable="1"/>
+    <field name="addr:housenumber" editable="1"/>
+    <field name="addr:postcode" editable="1"/>
+    <field name="addr:street" editable="1"/>
+    <field name="address" editable="1"/>
+    <field name="admin_level" editable="1"/>
+    <field name="aeroway" editable="1"/>
+    <field name="amenity" editable="1"/>
+    <field name="area" editable="0"/>
+    <field name="barrier" editable="1"/>
+    <field name="barrier_2" editable="1"/>
+    <field name="boundary" editable="1"/>
+    <field name="bu_code" editable="1"/>
+    <field name="bu_naam" editable="1"/>
+    <field name="building" editable="1"/>
+    <field name="comment" editable="1"/>
+    <field name="craft" editable="1"/>
+    <field name="description" editable="1"/>
+    <field name="designation" editable="1"/>
+    <field name="dog" editable="1"/>
+    <field name="geological" editable="1"/>
+    <field name="gm_code" editable="1"/>
+    <field name="gm_naam" editable="1"/>
+    <field name="highway" editable="1"/>
+    <field name="historic" editable="1"/>
+    <field name="id" editable="1"/>
+    <field name="image" editable="1"/>
+    <field name="image:0" editable="1"/>
+    <field name="image:1" editable="1"/>
+    <field name="image:2" editable="1"/>
+    <field name="image:3" editable="1"/>
+    <field name="image:4" editable="1"/>
+    <field name="image:5" editable="1"/>
+    <field name="image:6" editable="1"/>
+    <field name="image:7" editable="1"/>
+    <field name="image:9" editable="1"/>
+    <field name="is_in" editable="1"/>
+    <field name="klasse1" editable="1"/>
+    <field name="klasse2" editable="1"/>
+    <field name="klasse3" editable="1"/>
+    <field name="land_area" editable="1"/>
+    <field name="landuse" editable="1"/>
+    <field name="layer" editable="1"/>
+    <field name="leaf_type" editable="1"/>
+    <field name="leisure" editable="1"/>
+    <field name="lit" editable="1"/>
+    <field name="man_made" editable="1"/>
+    <field name="max_age" editable="1"/>
+    <field name="military" editable="1"/>
+    <field name="min_age" editable="1"/>
+    <field name="name" editable="1"/>
+    <field name="natural" editable="1"/>
+    <field name="office" editable="1"/>
+    <field name="operator" editable="1"/>
+    <field name="oppervlakte" editable="1"/>
+    <field name="osm_id" editable="1"/>
+    <field name="osm_way_id" editable="1"/>
+    <field name="other_tags" editable="1"/>
+    <field name="path" editable="1"/>
+    <field name="place" editable="1"/>
+    <field name="playground" editable="1"/>
+    <field name="playground:balancebeam" editable="1"/>
+    <field name="playground:basketswing" editable="1"/>
+    <field name="playground:climbingframe" editable="1"/>
+    <field name="playground:playhouse" editable="1"/>
+    <field name="playground:roundabout" editable="1"/>
+    <field name="playground:sandpit" editable="1"/>
+    <field name="playground:seesaw" editable="1"/>
+    <field name="playground:slide" editable="1"/>
+    <field name="playground:swing" editable="1"/>
+    <field name="playground:theme" editable="1"/>
+    <field name="playground:water" editable="1"/>
+    <field name="playground:zipwire" editable="1"/>
+    <field name="qc_id" editable="1"/>
+    <field name="ref" editable="1"/>
+    <field name="ref_gem" editable="1"/>
+    <field name="shop" editable="1"/>
+    <field name="sport" editable="1"/>
+    <field name="surface" editable="1"/>
+    <field name="tourism" editable="1"/>
+    <field name="type" editable="1"/>
+    <field name="wheelchair" editable="1"/>
+    <field name="wifi" editable="1"/>
+    <field name="wk_code" editable="1"/>
+    <field name="wk_naam" editable="1"/>
   </editable>
   <labelOnTop>
     <field name="access" labelOnTop="0"/>
@@ -935,14 +935,14 @@ def my_form_open(dialog, layer, feature):
   <dataDefinedFieldProperties/>
   <widgets/>
   <previewExpression>"name"</previewExpression>
-  <mapTip>&lt;table>
+  <mapTip>&lt;table width="300px">
 	&lt;tr>&lt;img src="[% image %]" width="200">&lt;/tr>
-	&lt;tr>&lt;td>Name:&lt;/td>&lt;td>[% name %]&lt;/td>&lt;/tr>
-	&lt;tr>&lt;td>Age:&lt;/td>&lt;td>([% min_age %],[% max_age %])&lt;/td>&lt;/tr>
-	&lt;tr>&lt;td>Area:&lt;/td>&lt;td>[% round($area) %]&lt;/td>&lt;/tr>
-	&lt;tr>&lt;td>Surface:&lt;/td>&lt;td>[% surface %]&lt;/td>&lt;/tr>
-	&lt;tr>&lt;td>Lights:&lt;/td>&lt;td>[% lit %]&lt;/td>&lt;/tr>
-	&lt;tr>&lt;td>Access:&lt;/td>&lt;td>[% access %]&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>Naam:&lt;/td>&lt;td>[% name %]&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>leeftijd:&lt;/td>&lt;td>([% min_age %],[% max_age %])&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>Oppervlakte:&lt;/td>&lt;td>[% round($area) %]m2&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>Ondergrond:&lt;/td>&lt;td>[% surface %]&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>Verlichting:&lt;/td>&lt;td>[% lit %]&lt;/td>&lt;/tr>
+	&lt;tr>&lt;td>Toegang:&lt;/td>&lt;td>[% access %]&lt;/td>&lt;/tr>
 &lt;/table></mapTip>
   <layerGeometryType>2</layerGeometryType>
 </qgis>
