@@ -1,6 +1,65 @@
 <!DOCTYPE model>
 <Option type="Map">
   <Option type="Map" name="children">
+    <Option type="Map" name="etl_load:appendfeaturestolayer_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="etl_load:appendfeaturestolayer"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="591.2"/>
+        <Option type="double" name="component_pos_y" value="989.4000000000001"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Append features to layer weg"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="445.20000000000005"/>
+      <Option type="double" name="component_pos_y" value="1044"/>
+      <Option type="double" name="component_width" value="242.4"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="etl_load:appendfeaturestolayer_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ACTION_ON_DUPLICATE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="2"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SOURCE_FIELD">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="osm_id"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SOURCE_LAYER">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:refactorfields_1"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_FIELD">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="osm_id"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TARGET_LAYER">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="weg_c222cc32_24e8_471c_8a48_41f9ce819287"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
     <Option type="Map" name="native:explodehstorefield_2">
       <Option type="bool" name="active" value="true"/>
       <Option name="alg_config"/>
@@ -65,8 +124,8 @@
       </Option>
       <Option type="QString" name="component_description" value="Field calculator klasse"/>
       <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="181.5"/>
-      <Option type="double" name="component_pos_y" value="899.5"/>
+      <Option type="double" name="component_pos_x" value="182.29999999999998"/>
+      <Option type="double" name="component_pos_y" value="817.9"/>
       <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
       <Option type="QString" name="id" value="native:fieldcalculator_1"/>
@@ -139,6 +198,18 @@
       <Option type="bool" name="outputs_collapsed" value="true"/>
       <Option type="bool" name="parameters_collapsed" value="true"/>
       <Option type="Map" name="params">
+        <Option type="List" name="DATA">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value=""/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
         <Option type="List" name="URL">
           <Option type="Map">
             <Option type="QString" name="child_id" value="quickosm:buildqueryinsidearea_1"/>
@@ -165,8 +236,8 @@
       </Option>
       <Option type="QString" name="component_description" value="Refactor fields"/>
       <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="171"/>
-      <Option type="double" name="component_pos_y" value="710.5"/>
+      <Option type="double" name="component_pos_x" value="183.80000000000004"/>
+      <Option type="double" name="component_pos_y" value="924.8999999999999"/>
       <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
       <Option type="QString" name="id" value="native:refactorfields_1"/>
@@ -183,7 +254,7 @@
                 <Option type="int" name="length" value="0"/>
                 <Option type="QString" name="name" value="osm_id"/>
                 <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option type="int" name="type" value="4"/>
               </Option>
               <Option type="Map">
                 <Option type="QString" name="expression" value="&quot;name&quot;"/>
@@ -228,7 +299,7 @@
                 <Option type="int" name="type" value="10"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;maxspeed&quot;"/>
+                <Option type="QString" name="expression" value="case &#xd;&#xa;when &quot;maxspeed&quot; is null then NULL&#xd;&#xa;else to_int(&quot;maxspeed&quot;)&#xd;&#xa;end"/>
                 <Option type="int" name="length" value="0"/>
                 <Option type="QString" name="name" value="maxspeed"/>
                 <Option type="int" name="precision" value="0"/>
@@ -248,12 +319,19 @@
                 <Option type="int" name="precision" value="0"/>
                 <Option type="int" name="type" value="10"/>
               </Option>
+              <Option type="Map">
+                <Option type="QString" name="expression" value="&quot;klasse&quot;"/>
+                <Option type="int" name="length" value="0"/>
+                <Option type="QString" name="name" value="klasse"/>
+                <Option type="int" name="precision" value="0"/>
+                <Option type="int" name="type" value="2"/>
+              </Option>
             </Option>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:explodehstorefield_2"/>
+            <Option type="QString" name="child_id" value="native:fieldcalculator_1"/>
             <Option type="QString" name="output_name" value="OUTPUT"/>
             <Option type="int" name="source" value="1"/>
           </Option>
@@ -277,8 +355,8 @@
       </Option>
       <Option type="QString" name="component_description" value="Reproject layer"/>
       <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="171.5"/>
-      <Option type="double" name="component_pos_y" value="793"/>
+      <Option type="double" name="component_pos_x" value="172.29999999999998"/>
+      <Option type="double" name="component_pos_y" value="721.8"/>
       <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
       <Option type="QString" name="id" value="native:reprojectlayer_2"/>
@@ -288,9 +366,15 @@
       <Option type="Map" name="params">
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:refactorfields_1"/>
+            <Option type="QString" name="child_id" value="native:explodehstorefield_2"/>
             <Option type="QString" name="output_name" value="OUTPUT"/>
             <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPERATION">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value=""/>
           </Option>
         </Option>
         <Option type="List" name="TARGET_CRS">
@@ -342,7 +426,7 @@
       </Option>
     </Option>
     <Option type="Map" name="qgis:importintospatialite_2">
-      <Option type="bool" name="active" value="true"/>
+      <Option type="bool" name="active" value="false"/>
       <Option name="alg_config"/>
       <Option type="QString" name="alg_id" value="qgis:importintospatialite"/>
       <Option type="QString" name="color" value=""/>
@@ -358,8 +442,8 @@
       </Option>
       <Option type="QString" name="component_description" value="Export to SpatiaLite"/>
       <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="184.5"/>
-      <Option type="double" name="component_pos_y" value="1002.5"/>
+      <Option type="double" name="component_pos_x" value="163.7"/>
+      <Option type="double" name="component_pos_y" value="1043.2999999999995"/>
       <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
       <Option type="QString" name="id" value="qgis:importintospatialite_2"/>
@@ -405,7 +489,7 @@
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:fieldcalculator_1"/>
+            <Option type="QString" name="child_id" value="native:refactorfields_1"/>
             <Option type="QString" name="output_name" value="OUTPUT"/>
             <Option type="int" name="source" value="1"/>
           </Option>
@@ -538,7 +622,18 @@
     </Option>
   </Option>
   <Option type="Map" name="designerParameterValues">
-    <Option type="bool" name="VERBOSE_LOG" value="true"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="native:reprojectlayer_2:raw">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option type="QString" name="fileEncoding" value="System"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option type="bool" name="active" value="true"/>
+          <Option type="int" name="type" value="1"/>
+          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
