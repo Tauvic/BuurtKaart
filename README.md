@@ -12,6 +12,8 @@ Het proces in het kort:
 * Verbeter de buurt (acties met vrijwilligers, samen met de gemeente) 
 * Deel de informatie met anderen (grotere plaatje)
 
+Een handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
+
 ## Ambities: 
 
 * De speelterreinen op de kaart zetten en advies over betere indeling
