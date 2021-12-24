@@ -12,7 +12,8 @@ Het proces in het kort:
 * Verbeter de buurt (acties met vrijwilligers, samen met de gemeente) 
 * Deel de informatie met anderen (grotere plaatje)
 
-# Ambities: 
+## Ambities: 
+
 * De speelterreinen op de kaart zetten en advies over betere indeling
 * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
 * Wandelroutes met mogelijkheden voor ontmoeting
@@ -20,7 +21,7 @@ Het proces in het kort:
 * Sociale veiligheid (paden, verlichting)
 * Verkeersveiligheid
 
-# Wat is er tot nu toe bereikt
+## Wat is er tot nu toe bereikt
 
 Ik ga uit van de richtlijnen in [Handboek spelen met ruimte](https://vng.nl/files/vng/handboekspelenmetruimte.pdf): (Normen opgesteld VNG, Jantje beton) en de [Handleiding bij Rotterdamse norm](http://spelenenbewegen.nl/wp-content/uploads/2016/04/Handleiding-Rotterdamse-norm-Buitenspeelruimte_def.pdf).
 De speelterreinen in de gemeente Ermelo staan nu op OpenStreetMap je kan ze nu ook makkelijk terug vinden in [Mapcomplete](https://mapcomplete.osm.be/playgrounds.html?z=16&lat=52.29508&lon=5.608949&language=nl#welcome) en met de gratis [OSMAnd App](https://osmand.net/). Een eerste versie van een drie dimensionale kaart toont de buurt vanuit het gezichtpunt van een kind. Zo kan je al goed een indruk krijgen van de bereikbaarheid en de verdeling. Het gebied is opgedeeld in barriére gebieden volgens de richtlijnen.
