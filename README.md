@@ -12,50 +12,13 @@ Het proces in het kort:
 * Verbeter de buurt (acties met vrijwilligers, samen met de gemeente) 
 * Deel de informatie met anderen (grotere plaatje)
 
-# Hoe gaat dit werken
-
-* Lees je in op dit onderwerp (zie links naar artikelen)
-* Zet een werkgroepje op met vrijwilligers
-* Breng je buurt in kaart (verzamel informatie van de gemeente, loop rond en noteer)
-* De BuurtKaart genereerd niet alleen kaarten maar ook analyses, lijsten en overzichten
-* Gebruik deze informatie als argumentatie om de leefbaarheid te verbeteren (overleg met de gemeente).
-* Maak kaarten van de voorzieningen en faciliteiten en deel deze met buurtbewoners via de wijk website ([wikie](https://github.com/Tauvic/BuurtKaart/wiki))
-* Deel deze informatie op OpenStreetMap zodat ook anderen Apps en Web toepassingen kunnen ontwikkelen
-
-Ambities: 
+# Ambities: 
 * De speelterreinen op de kaart zetten en advies over betere indeling
 * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
 * Wandelroutes met mogelijkheden voor ontmoeting
 * Voorzieningen voor ouderen (locatie en bereikbaarheid)
 * Sociale veiligheid (paden, verlichting)
 * Verkeersveiligheid
-
-# Speelterreinen
-
-![kaart](https://tauvicr.files.wordpress.com/2021/11/qgis_buurtkaart.png) 
-
-Als voorbeeld beschrijf ik hoe je de speelvoorzieningen in de wijk kan inventariseren en vergelijken met de norm om hiermee verbetervoorstellen op te stellen. 
-De kennis die ik heb opgedaan is hiermee beschikbaar voor alle buurtbewoners en wijkverenigingen. Lees: [Breng je buurt in kaart en doe er wat mee](https://tauvicr.wordpress.com/2021/11/20/breng-je-buurt-in-kaart-en-doe-er-wat-mee/)
-
-
-Bronnen: OpenStreetMap, Basisregistratie Grootschalige Topografie (BGT)
-
-Faciliteiten en voorzieningen:
-* Speelterreinen
-* Groenvoorziening en hondenuitlaatplaatsen
-* Wegen en paden
-* Water: vijvers sloten en kanalen
-
-Inrichting en bevolkings opbouw:
-* CBS Gemeentes
-* CBS wijken en buurten
-* CBS statistiek 100m
-
-Vragen en informatie behoefte:
-* waar zijn speelterreinen en voor welke doelgroep
-* zijn de speeltereinen goed en eerlijk verdeeld over de gemeente
-* hoe is de bereikbaarheid voor kinderen (hoeveel hebben wel/geen toegang)
-* hoe kunnen we de situatie verbeteren
 
 # Wat is er tot nu toe bereikt
 
