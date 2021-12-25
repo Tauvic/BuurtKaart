@@ -14,7 +14,7 @@ Het proces in het kort:
 
 Een handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
-![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024
+![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024)
 
 ## Ambities: 
 
