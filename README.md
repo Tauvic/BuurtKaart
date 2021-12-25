@@ -17,21 +17,18 @@ Een handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/A
 ![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024)
 
 ## Ambities: 
+* Voorzieningen en hun bereikbaarheid in kaart brengen
+  * De speelterreinen op de kaart zetten en advies over betere indeling
+  * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
+  * Voorzieningen voor ouderen (locatie en bereikbaarheid)
+* Verkeer & veiligheid
+  * Verkeersveiligheid
+  * Wandelroutes met mogelijkheden voor ontmoeting
+  * Sociale veiligheid (paden, verlichting)
 
-* De speelterreinen op de kaart zetten en advies over betere indeling
-* Hondenuitlaatplaatsen (locatie en bereikbaarheid)
-* Wandelroutes met mogelijkheden voor ontmoeting
-* Voorzieningen voor ouderen (locatie en bereikbaarheid)
-* Sociale veiligheid (paden, verlichting)
-* Verkeersveiligheid
 
 ## Wat is er tot nu toe bereikt
 
-Ik ga uit van de richtlijnen in [Handboek spelen met ruimte](https://vng.nl/files/vng/handboekspelenmetruimte.pdf): (Normen opgesteld VNG, Jantje beton) en de [Handleiding bij Rotterdamse norm](http://spelenenbewegen.nl/wp-content/uploads/2016/04/Handleiding-Rotterdamse-norm-Buitenspeelruimte_def.pdf).
-De speelterreinen in de gemeente Ermelo staan nu op OpenStreetMap je kan ze nu ook makkelijk terug vinden in [Mapcomplete](https://mapcomplete.osm.be/playgrounds.html?z=16&lat=52.29508&lon=5.608949&language=nl#welcome) en met de gratis [OSMAnd App](https://osmand.net/). Een eerste versie van een drie dimensionale kaart toont de buurt vanuit het gezichtpunt van een kind. Zo kan je al goed een indruk krijgen van de bereikbaarheid en de verdeling. Het gebied is opgedeeld in barriére gebieden volgens de richtlijnen.
+Het aandachtspunt speelterreinen is nu behoorlijk uitgewerkt. Zo is er een overzichtskaart en een analyse bereikbaarheid. Ik ga uit van de richtlijnen in [Handboek spelen met ruimte](https://vng.nl/files/vng/handboekspelenmetruimte.pdf): (Normen opgesteld VNG, Jantje beton) en de [Handleiding bij Rotterdamse norm](http://spelenenbewegen.nl/wp-content/uploads/2016/04/Handleiding-Rotterdamse-norm-Buitenspeelruimte_def.pdf).
 
-Ik werk nu aan het nog duidelijker maken van de bereikbaarheid door visualisatie.
-
-[![Kaart](https://tauvicr.files.wordpress.com/2021/11/3d_kaart.png?w=2046)](https://tauvic.github.io/BuurtKaart/Qgis2threejs/index.html)
-Klik op de kaart voor de 3D weergave
-
+Ik werk nu aan een overzicht verkeersveiligheid voor de lokale wijkvereniging.
