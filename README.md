@@ -14,6 +14,8 @@ Het proces in het kort:
 
 Een handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
+![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024
+
 ## Ambities: 
 
 * De speelterreinen op de kaart zetten en advies over betere indeling
@@ -32,3 +34,4 @@ Ik werk nu aan het nog duidelijker maken van de bereikbaarheid door visualisatie
 
 [![Kaart](https://tauvicr.files.wordpress.com/2021/11/3d_kaart.png?w=2046)](https://tauvic.github.io/BuurtKaart/Qgis2threejs/index.html)
 Klik op de kaart voor de 3D weergave
+
