@@ -17,10 +17,10 @@ Lees meer over de gedachte van deze werkwijze: [Burger participatie nieuwe stijl
 
 ## Het proces in het kort
 
-* Verzamel informatie over je omgeving en breng je buurt in kaart (zichtbaar maken)
-* Analyseer de situatie en trek conclusies (inzicht)
-* Verbeter de buurt (acties met vrijwilligers, samen met de gemeente) 
-* Deel de informatie met anderen (grotere plaatje)
+* Verzamel informatie (situatie, behoefte, klachten, ideeën) over je omgeving en breng je buurt in kaart (**zichtbaar maken**)
+* Analyseer de situatie en trek conclusies (**inzicht**)
+* Verbeter de buurt (**acties** met vrijwilligers, samen met de gemeente) 
+* Deel de informatie en de resultaten met de buurt (**terugkoppeling**)
 
 Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
