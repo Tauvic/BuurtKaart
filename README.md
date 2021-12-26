@@ -41,4 +41,4 @@ Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKa
 
 Het aandachtspunt speelterreinen is nu behoorlijk uitgewerkt. Zo is er een overzichtskaart en een analyse bereikbaarheid. Ik ga uit van de richtlijnen in [Handboek spelen met ruimte](https://vng.nl/files/vng/handboekspelenmetruimte.pdf): (Normen opgesteld VNG, Jantje beton) en de [Handleiding bij Rotterdamse norm](http://spelenenbewegen.nl/wp-content/uploads/2016/04/Handleiding-Rotterdamse-norm-Buitenspeelruimte_def.pdf).
 
-Ik werk nu aan een overzicht verkeersveiligheid voor de lokale wijkvereniging.
+Ik werk nu aan een overzicht [verkeersveiligheid](https://github.com/Tauvic/BuurtKaart/wiki/Verkeersveiligheid) voor de lokale wijkvereniging.
