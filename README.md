@@ -24,6 +24,7 @@ Lees meer over de gedachte van deze werkwijze: [Burger participatie nieuwe stijl
 
 Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
+Kaart: speelterreinen en hun bereikbaarheid
 ![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024)
 
 ## Ambities: 
