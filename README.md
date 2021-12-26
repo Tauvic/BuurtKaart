@@ -2,9 +2,15 @@
 
 Met de Omgevingswet krijgen burgers nieuwe mogelijkheden om invloed uit te oefenen op beslissingen over hun leefomgeving. 
 Burgerparticipatie is een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
-Dit geeft de indruk dat er nog maar weinig bij te sturen valt. Met de juiste data en de **BuurtKaart** wordt bewonersparticipatie wél een succes./Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
+Dit geeft de indruk dat er nog maar weinig bij te sturen valt.
 
-Burgerparticipatie nieuwe stijl: De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving
+Maar juist nu zijn er nieuwe mogelijkheden.
+Open Data is nu vrij beschikbaar over alle aspecten van onze omgeving.
+Combineer dit met lokale kennis en ervaring van buurtbewoners en je krijgt een compleet beeld.
+Deze aanpak word ook door gemeenten onderkend.
+Met de juiste data en de **BuurtKaart** wordt bewonersparticipatie wél een succes. Lees meer: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
+
+>Burgerparticipatie nieuwe stijl: "De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving"
 
 Het proces in het kort:
 * Verzamel informatie over je omgeving en breng je buurt in kaart (zichtbaar maken)
