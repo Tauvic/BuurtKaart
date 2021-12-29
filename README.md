@@ -8,7 +8,7 @@ Maar juist nu zijn er nieuwe mogelijkheden.
 Open Data is nu vrij beschikbaar over alle aspecten van onze omgeving.
 Combineer dit met lokale kennis en ervaring van buurtbewoners en je krijgt een compleet beeld.
 Deze aanpak word ook door gemeenten onderkend.
-Met de juiste data en de **BuurtKaart** wordt bewonersparticipatie wél een succes.
+Met de juiste data en wat hulp van de **BuurtKaart** wordt bewonersparticipatie wél een succes.
 
 
 >Burgerparticipatie nieuwe stijl: "De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving"
@@ -21,6 +21,7 @@ Lees meer over de gedachte van deze werkwijze: [Burger participatie nieuwe stijl
 * Analyseer de situatie en trek conclusies (**inzicht**)
 * Verbeter de buurt (**acties** met vrijwilligers, samen met de gemeente) 
 * Deel de informatie en de resultaten met de buurt (**terugkoppeling**)
+* En als je nog wat tijd over hebt **deel** je ervaringen zodat anderen ervan kunnen leren.
 
 Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
