@@ -13,7 +13,7 @@ Met de juiste data en wat hulp van de **BuurtKaart** wordt bewonersparticipatie 
 
 >Burgerparticipatie nieuwe stijl: "De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving"
 
-Lees meer over de gedachte van deze werkwijze: [Burger participatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
+Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
 
 ## Het proces in het kort
 
