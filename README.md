@@ -29,7 +29,7 @@ Kaart: speelterreinen en hun bereikbaarheid
 ![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024)
 
 ## Ambities: 
-* Voorzieningen en hun bereikbaarheid in kaart brengen
+* Voorzieningen en hun bereikbaarheid
   * De speelterreinen op de kaart zetten en advies over betere indeling
   * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
   * Voorzieningen voor ouderen (locatie en bereikbaarheid)
@@ -37,6 +37,7 @@ Kaart: speelterreinen en hun bereikbaarheid
   * Verkeersveiligheid
   * Wandelroutes met mogelijkheden voor ontmoeting
   * Sociale veiligheid (paden, verlichting)
+* Demografische ontwikkeling
 
 
 ## Wat is er tot nu toe bereikt
