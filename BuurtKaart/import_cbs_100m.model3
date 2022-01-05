@@ -1,104 +1,412 @@
 <!DOCTYPE model>
 <Option type="Map">
-  <Option name="children" type="Map">
-    <Option name="grass7:v.in.wfs_1" type="Map">
-      <Option name="active" value="true" type="bool"/>
+  <Option type="Map" name="children">
+    <Option type="Map" name="etl_load:appendfeaturestolayer_1">
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="grass7:v.in.wfs" type="QString"/>
-      <Option name="color" value="" type="QString"/>
-      <Option name="comment" type="Map">
-        <Option name="color" value="" type="QString"/>
-        <Option name="component_description" value="" type="QString"/>
-        <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="457.5" type="double"/>
-        <Option name="component_pos_y" value="101.5" type="double"/>
-        <Option name="component_width" value="100" type="double"/>
-        <Option name="outputs_collapsed" value="true" type="bool"/>
-        <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option value="etl_load:appendfeaturestolayer" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="850.4000000000001" type="double" name="component_pos_x"/>
+        <Option value="355" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option name="component_description" value="v.in.wfs" type="QString"/>
-      <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="257.5" type="double"/>
-      <Option name="component_pos_y" value="146.5" type="double"/>
-      <Option name="component_width" value="200" type="double"/>
-      <Option name="dependencies"/>
-      <Option name="id" value="grass7:v.in.wfs_1" type="QString"/>
+      <Option value="Append features to CBS_100m" type="QString" name="component_description"/>
+      <Option value="51.60000000000002" type="double" name="component_height"/>
+      <Option value="427.2000000000004" type="double" name="component_pos_x"/>
+      <Option value="858.8000000000002" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:truncatetable_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="etl_load:appendfeaturestolayer_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" value="true" type="bool"/>
-      <Option name="parameters_collapsed" value="true" type="bool"/>
-      <Option name="params" type="Map">
-        <Option name="GRASS_OUTPUT_TYPE_PARAMETER" type="List">
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ACTION_ON_DUPLICATE">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="0" type="int"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
           </Option>
         </Option>
-        <Option name="GRASS_REGION_PARAMETER" type="List">
+        <Option type="List" name="SOURCE_FIELD">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" type="invalid"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
-        <Option name="GRASS_VECTOR_DSCO" type="List">
+        <Option type="List" name="SOURCE_LAYER">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="" type="QString"/>
+            <Option value="native:extractbylocation_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
-        <Option name="GRASS_VECTOR_EXPORT_NOCAT" type="List">
+        <Option type="List" name="TARGET_FIELD">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="false" type="bool"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
-        <Option name="GRASS_VECTOR_LCO" type="List">
+        <Option type="List" name="TARGET_LAYER">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="" type="QString"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="CBS_Statistiek_c390e5cc_f7f6_4028_8d89_360ae96ae55a" type="QString" name="static_value"/>
           </Option>
         </Option>
-        <Option name="maximum_features" type="List">
+      </Option>
+    </Option>
+    <Option type="Map" name="grass7:v.in.wfs_2">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="grass7:v.in.wfs" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="1090.4" type="double" name="component_pos_x"/>
+        <Option value="466.19999999999993" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="v.in.wfs CBS_100m" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="169.60000000000034" type="double" name="component_pos_x"/>
+      <Option value="287.1999999999998" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="grass7:v.in.wfs_2" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="GRASS_OUTPUT_TYPE_PARAMETER">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="10000" type="int"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
           </Option>
         </Option>
-        <Option name="name" type="List">
+        <Option type="List" name="GRASS_REGION_PARAMETER">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="cbsvierkanten100mv2:vierkant100m2020" type="QString"/>
+            <Option value="concat(&#xa;@Extract_by_Gemeente_OUTPUT_minx,',',&#xa;@Extract_by_Gemeente_OUTPUT_miny,',',&#xa;@Extract_by_Gemeente_OUTPUT_maxx,',',&#xa;@Extract_by_Gemeente_OUTPUT_maxy,' [EPSG:28992]')" type="QString" name="expression"/>
+            <Option value="3" type="int" name="source"/>
           </Option>
         </Option>
-        <Option name="srs" type="List">
+        <Option type="List" name="GRASS_VECTOR_DSCO">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="ProjectCrs" type="QString"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
-        <Option name="start_index" type="List">
+        <Option type="List" name="GRASS_VECTOR_EXPORT_NOCAT">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" type="invalid"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="true" type="bool" name="static_value"/>
           </Option>
         </Option>
-        <Option name="url" type="List">
+        <Option type="List" name="GRASS_VECTOR_LCO">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="https://geodata.nationaalgeoregister.nl/cbsvierkanten100mv2/wfs" type="QString"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="maximum_features">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="name">
+          <Option type="Map">
+            <Option value="concat('cbsvierkanten100mv2:vierkant100m',@cbsjaar)" type="QString" name="expression"/>
+            <Option value="3" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="srs">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="start_index">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="url">
+          <Option type="Map">
+            <Option value="&#xa;concat(&#xa;'https://geodata.nationaalgeoregister.nl/cbsvierkanten100mv2/wfs?bbox=',@Extract_by_Gemeente_OUTPUT_minx,',',&#xa;@Extract_by_Gemeente_OUTPUT_miny,',',&#xa;@Extract_by_Gemeente_OUTPUT_maxx,',',&#xa;@Extract_by_Gemeente_OUTPUT_maxy,'&amp;')" type="QString" name="expression"/>
+            <Option value="3" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:deletecolumn_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:deletecolumn" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="598.4000000000001" type="double" name="component_pos_x"/>
+        <Option value="343.8" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Drop field(s)" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="176.00000000000003" type="double" name="component_pos_x"/>
+      <Option value="495.20000000000005" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:deletecolumn_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="StringList" name="static_value">
+              <Option value="fid" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:fixgeometries_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:extractbyexpression" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="758.4" type="double" name="component_pos_x"/>
+        <Option value="215" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Extract by Gemeente" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="344.8" type="double" name="component_pos_x"/>
+      <Option value="176.00000000000003" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:extractbyexpression_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="&quot;statnaam&quot;=@p_gemeente" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="cbs_gemeente_2021_niet_gegeneraliseerd_ecaddf68_9533_4594_aec0_c8c1edd6e759" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbylocation_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:extractbylocation" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="704.8" type="double" name="component_pos_x"/>
+        <Option value="380.6" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Extract by location within gemeente" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="445.5999999999999" type="double" name="component_pos_x"/>
+      <Option value="619.2" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:extractbylocation_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:deletecolumn_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INTERSECT">
+          <Option type="Map">
+            <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="List" name="static_value">
+              <Option value="0" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:fixgeometries_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:fixgeometries" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="687.2" type="double" name="component_pos_x"/>
+        <Option value="252.60000000000002" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Fix geometries" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="172.80000000000007" type="double" name="component_pos_x"/>
+      <Option value="398.40000000000003" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:fixgeometries_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="grass7:v.in.wfs_2" type="QString" name="child_id"/>
+            <Option value="output" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:truncatetable_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:truncatetable" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="897.6" type="double" name="component_pos_x"/>
+        <Option value="688.6" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Truncate table" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="548.8" type="double" name="component_pos_x"/>
+      <Option value="740" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:extractbylocation_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="native:truncatetable_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="CBS_Statistiek_c390e5cc_f7f6_4028_8d89_360ae96ae55a" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
-  <Option name="designerParameterValues" type="Map">
-    <Option name="VERBOSE_LOG" value="true" type="bool"/>
-  </Option>
+  <Option name="designerParameterValues"/>
   <Option name="groupBoxes"/>
   <Option name="help"/>
   <Option name="modelVariables"/>
-  <Option name="model_group" value="" type="QString"/>
-  <Option name="model_name" value="importeer_CBS_100m" type="QString"/>
-  <Option name="parameterDefinitions"/>
+  <Option value="" type="QString" name="model_group"/>
+  <Option value="Import_CBS_100m" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="cbsjaar">
+      <Option value="2020" type="QString" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option value="CBS_Jaar" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="false" type="bool" name="multiline"/>
+      <Option value="cbsjaar" type="QString" name="name"/>
+      <Option value="string" type="QString" name="parameter_type"/>
+    </Option>
+  </Option>
   <Option name="parameterOrder"/>
-  <Option name="parameters"/>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="cbsjaar">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="Peiljaar voor CBS_100m" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="388" type="double" name="component_pos_x"/>
+        <Option value="74.19999999999999" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="cbsjaar" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="159.2" type="double" name="component_pos_x"/>
+      <Option value="74.39999999999999" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option value="cbsjaar" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+  </Option>
 </Option>

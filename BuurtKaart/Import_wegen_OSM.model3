@@ -2,644 +2,580 @@
 <Option type="Map">
   <Option type="Map" name="children">
     <Option type="Map" name="etl_load:appendfeaturestolayer_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="etl_load:appendfeaturestolayer"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="etl_load:appendfeaturestolayer" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="591.2"/>
-        <Option type="double" name="component_pos_y" value="989.4000000000001"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="591.2" type="double" name="component_pos_x"/>
+        <Option value="989.4000000000001" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Append features to layer weg"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="445.20000000000005"/>
-      <Option type="double" name="component_pos_y" value="1044"/>
-      <Option type="double" name="component_width" value="242.4"/>
-      <Option name="dependencies"/>
-      <Option type="QString" name="id" value="etl_load:appendfeaturestolayer_1"/>
+      <Option value="Append features to layer weg" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="200.40000000000003" type="double" name="component_pos_x"/>
+      <Option value="1064" type="double" name="component_pos_y"/>
+      <Option value="242.4" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:truncatetable_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="etl_load:appendfeaturestolayer_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="ACTION_ON_DUPLICATE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="2"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="SOURCE_FIELD">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="osm_id"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="SOURCE_LAYER">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:refactorfields_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="native:refactorfields_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="TARGET_FIELD">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="osm_id"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="TARGET_LAYER">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="weg_c222cc32_24e8_471c_8a48_41f9ce819287"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="weg_c222cc32_24e8_471c_8a48_41f9ce819287" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:explodehstorefield_2">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:explodehstorefield"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:explodehstorefield" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="655"/>
-        <Option type="double" name="component_pos_y" value="491.5"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="655" type="double" name="component_pos_x"/>
+        <Option value="491.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Explode HStore Field"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="168.5"/>
-      <Option type="double" name="component_pos_y" value="608"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Explode HStore Field" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="168.5" type="double" name="component_pos_x"/>
+      <Option value="608" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:explodehstorefield_2"/>
+      <Option value="native:explodehstorefield_2" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="EXPECTED_FIELDS">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="highway,lit,surface,lanes,lane_markings,cycleway,maxspeed"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="highway,lit,surface,lanes,lane_markings,cycleway,maxspeed" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="other_tags"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="other_tags" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="quickosm:openosmfile_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT_LINES"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="quickosm:openosmfile_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT_LINES" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:fieldcalculator_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:fieldcalculator"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:fieldcalculator" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="625"/>
-        <Option type="double" name="component_pos_y" value="742.5"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="625" type="double" name="component_pos_x"/>
+        <Option value="742.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Field calculator klasse"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="182.29999999999998"/>
-      <Option type="double" name="component_pos_y" value="817.9"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Field calculator klasse" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="182.29999999999998" type="double" name="component_pos_x"/>
+      <Option value="817.9" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:fieldcalculator_1"/>
+      <Option value="native:fieldcalculator_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="FIELD_LENGTH">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_NAME">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="klasse"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="klasse" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_PRECISION">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FIELD_TYPE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="1"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="FORMULA">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="CASE&#xa;WHEN highway IN ('motorway','trunk','primary','secondary','tertiary') OR maxspeed>=50&#xa;&#xa;THEN 2&#xa;WHEN highway IN ('unclassified') AND maxspeed &lt;= 30 THEN 1&#xa;ELSE 0&#xa;END"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="CASE&#xa;WHEN highway IN ('motorway','trunk','primary','secondary','tertiary') OR maxspeed>=50&#xa;&#xa;THEN 2&#xa;WHEN highway IN ('unclassified') AND maxspeed &lt;= 30 THEN 1&#xa;ELSE 0&#xa;END" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:reprojectlayer_2"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="native:reprojectlayer_2" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:filedownloader_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:filedownloader"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:filedownloader" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="327"/>
-        <Option type="double" name="component_pos_y" value="230"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="327" type="double" name="component_pos_x"/>
+        <Option value="230" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Download file"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="168.5"/>
-      <Option type="double" name="component_pos_y" value="325.5"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Download file" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="168.5" type="double" name="component_pos_x"/>
+      <Option value="325.5" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:filedownloader_1"/>
+      <Option value="native:filedownloader_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="DATA">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value=""/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="METHOD">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="0"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="0" type="int" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="URL">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="quickosm:buildqueryinsidearea_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT_URL"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="quickosm:buildqueryinsidearea_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT_URL" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:refactorfields_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:refactorfields"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:refactorfields" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="619.5"/>
-        <Option type="double" name="component_pos_y" value="740.5"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="619.5" type="double" name="component_pos_x"/>
+        <Option value="740.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Refactor fields"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="183.80000000000004"/>
-      <Option type="double" name="component_pos_y" value="924.8999999999999"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Refactor fields" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="183.80000000000004" type="double" name="component_pos_x"/>
+      <Option value="924.8999999999999" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:refactorfields_1"/>
+      <Option value="native:refactorfields_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="FIELDS_MAPPING">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
+            <Option value="2" type="int" name="source"/>
             <Option type="List" name="static_value">
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;osm_id&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="osm_id"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="4"/>
+                <Option value="&quot;osm_id&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="osm_id" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="4" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;name&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="name"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;name&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="name" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;highway&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="highway"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;highway&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="highway" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;lit&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="lit"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;lit&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="lit" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;surface&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="surface"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;surface&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="surface" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;lanes&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="lanes"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;lanes&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="lanes" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;lane_markings&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="lane_markings"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;lane_markings&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="lane_markings" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="case &#xd;&#xa;when &quot;maxspeed&quot; is null then NULL&#xd;&#xa;else to_int(&quot;maxspeed&quot;)&#xd;&#xa;end"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="maxspeed"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="2"/>
+                <Option value="case &#xd;&#xa;when &quot;maxspeed&quot; is null then NULL&#xd;&#xa;else to_int(&quot;maxspeed&quot;)&#xd;&#xa;end" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="maxspeed" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="2" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;cycleway&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="cycleway"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;cycleway&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="cycleway" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;other_tags&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="other_tags"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="10"/>
+                <Option value="&quot;other_tags&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="other_tags" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="10" type="int" name="type"/>
               </Option>
               <Option type="Map">
-                <Option type="QString" name="expression" value="&quot;klasse&quot;"/>
-                <Option type="int" name="length" value="0"/>
-                <Option type="QString" name="name" value="klasse"/>
-                <Option type="int" name="precision" value="0"/>
-                <Option type="int" name="type" value="2"/>
+                <Option value="&quot;klasse&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="klasse" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="2" type="int" name="type"/>
               </Option>
             </Option>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:fieldcalculator_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="native:fieldcalculator_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:reprojectlayer_2">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:reprojectlayer"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:reprojectlayer" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="615"/>
-        <Option type="double" name="component_pos_y" value="628"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="615" type="double" name="component_pos_x"/>
+        <Option value="628" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Reproject layer"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="172.29999999999998"/>
-      <Option type="double" name="component_pos_y" value="721.8"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Reproject layer" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="172.29999999999998" type="double" name="component_pos_x"/>
+      <Option value="721.8" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:reprojectlayer_2"/>
+      <Option value="native:reprojectlayer_2" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:explodehstorefield_2"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="native:explodehstorefield_2" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="OPERATION">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value=""/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="TARGET_CRS">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="ProjectCrs"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="ProjectCrs" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:stringconcatenation_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="native:stringconcatenation"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:stringconcatenation" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="710"/>
-        <Option type="double" name="component_pos_y" value="99"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="710" type="double" name="component_pos_x"/>
+        <Option value="99" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="String concatenation"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="162.5"/>
-      <Option type="double" name="component_pos_y" value="133"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="String concatenation" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="162.5" type="double" name="component_pos_x"/>
+      <Option value="133" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="native:stringconcatenation_1"/>
+      <Option value="native:stringconcatenation_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="INPUT_1">
           <Option type="Map">
-            <Option type="QString" name="expression" value="@p_gemeente"/>
-            <Option type="int" name="source" value="3"/>
+            <Option value="@p_gemeente" type="QString" name="expression"/>
+            <Option value="3" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT_2">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value=", Nederland"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value=", Nederland" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="qgis:importintospatialite_2">
-      <Option type="bool" name="active" value="false"/>
+    <Option type="Map" name="native:truncatetable_1">
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="qgis:importintospatialite"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="native:truncatetable" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="723.5"/>
-        <Option type="double" name="component_pos_y" value="855"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="662.4000000000001" type="double" name="component_pos_x"/>
+        <Option value="927" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Export to SpatiaLite"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="163.7"/>
-      <Option type="double" name="component_pos_y" value="1043.2999999999995"/>
-      <Option type="double" name="component_width" value="200"/>
-      <Option name="dependencies"/>
-      <Option type="QString" name="id" value="qgis:importintospatialite_2"/>
+      <Option value="Truncate table" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="462.40000000000003" type="double" name="component_pos_x"/>
+      <Option value="972" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:refactorfields_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="native:truncatetable_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
-        <Option type="List" name="CREATEINDEX">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="true"/>
-          </Option>
-        </Option>
-        <Option type="List" name="DATABASE">
-          <Option type="Map">
-            <Option type="QString" name="expression" value=" concat(@project_folder,'/database/Staging')"/>
-            <Option type="int" name="source" value="3"/>
-          </Option>
-        </Option>
-        <Option type="List" name="DROP_STRING_LENGTH">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="false"/>
-          </Option>
-        </Option>
-        <Option type="List" name="ENCODING">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="UTF-8"/>
-          </Option>
-        </Option>
-        <Option type="List" name="FORCE_SINGLEPART">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="false"/>
-          </Option>
-        </Option>
-        <Option type="List" name="GEOMETRY_COLUMN">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="geom"/>
-          </Option>
-        </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:refactorfields_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
-          </Option>
-        </Option>
-        <Option type="List" name="LOWERCASE_NAMES">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="true"/>
-          </Option>
-        </Option>
-        <Option type="List" name="OVERWRITE">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="bool" name="static_value" value="true"/>
-          </Option>
-        </Option>
-        <Option type="List" name="PRIMARY_KEY">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value=""/>
-          </Option>
-        </Option>
-        <Option type="List" name="TABLENAME">
-          <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="weg"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="weg_b751c82d_e8ad_4971_b580_590bd45ec4bc" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="quickosm:buildqueryinsidearea_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="quickosm:buildqueryinsidearea"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="quickosm:buildqueryinsidearea" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="421.5"/>
-        <Option type="double" name="component_pos_y" value="84"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="421.5" type="double" name="component_pos_x"/>
+        <Option value="84" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Highway"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="167"/>
-      <Option type="double" name="component_pos_y" value="221.5"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Highway" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="167" type="double" name="component_pos_x"/>
+      <Option value="221.5" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="quickosm:buildqueryinsidearea_1"/>
+      <Option value="quickosm:buildqueryinsidearea_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="true"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="AREA">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:stringconcatenation_1"/>
-            <Option type="QString" name="output_name" value="CONCATENATION"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="native:stringconcatenation_1" type="QString" name="child_id"/>
+            <Option value="CONCATENATION" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="KEY">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="highway"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="highway" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="SERVER">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="https://lz4.overpass-api.de/api/interpreter"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="https://lz4.overpass-api.de/api/interpreter" type="QString" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="TIMEOUT">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="int" name="static_value" value="25"/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="25" type="int" name="static_value"/>
           </Option>
         </Option>
         <Option type="List" name="VALUE">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value=""/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="quickosm:openosmfile_1">
-      <Option type="bool" name="active" value="true"/>
+      <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option type="QString" name="alg_id" value="quickosm:openosmfile"/>
-      <Option type="QString" name="color" value=""/>
+      <Option value="quickosm:openosmfile" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
-        <Option type="QString" name="color" value=""/>
-        <Option type="QString" name="component_description" value=""/>
-        <Option type="double" name="component_height" value="60"/>
-        <Option type="double" name="component_pos_x" value="355.5"/>
-        <Option type="double" name="component_pos_y" value="393.5"/>
-        <Option type="double" name="component_width" value="100"/>
-        <Option type="bool" name="outputs_collapsed" value="true"/>
-        <Option type="bool" name="parameters_collapsed" value="true"/>
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="355.5" type="double" name="component_pos_x"/>
+        <Option value="393.5" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option type="QString" name="component_description" value="Open sublayers from an OSM file"/>
-      <Option type="double" name="component_height" value="30"/>
-      <Option type="double" name="component_pos_x" value="170"/>
-      <Option type="double" name="component_pos_y" value="437.5"/>
-      <Option type="double" name="component_width" value="200"/>
+      <Option value="Open sublayers from an OSM file" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="170" type="double" name="component_pos_x"/>
+      <Option value="437.5" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option type="QString" name="id" value="quickosm:openosmfile_1"/>
+      <Option value="quickosm:openosmfile_1" type="QString" name="id"/>
       <Option name="outputs"/>
-      <Option type="bool" name="outputs_collapsed" value="false"/>
-      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option value="false" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
         <Option type="List" name="FILE">
           <Option type="Map">
-            <Option type="QString" name="child_id" value="native:filedownloader_1"/>
-            <Option type="QString" name="output_name" value="OUTPUT"/>
-            <Option type="int" name="source" value="1"/>
+            <Option value="native:filedownloader_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="OSM_CONF">
           <Option type="Map">
-            <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value=""/>
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
-  <Option type="Map" name="designerParameterValues">
-    <Option type="QgsProcessingOutputLayerDefinition" name="native:reprojectlayer_2:raw">
-      <Option type="Map">
-        <Option type="Map" name="create_options">
-          <Option type="QString" name="fileEncoding" value="System"/>
-        </Option>
-        <Option type="Map" name="sink">
-          <Option type="bool" name="active" value="true"/>
-          <Option type="int" name="type" value="1"/>
-          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
-        </Option>
-      </Option>
-    </Option>
-  </Option>
+  <Option name="designerParameterValues"/>
   <Option name="groupBoxes"/>
   <Option name="help"/>
   <Option name="modelVariables"/>
-  <Option type="QString" name="model_group" value=""/>
-  <Option type="QString" name="model_name" value="Import_wegen_OSM"/>
+  <Option value="" type="QString" name="model_group"/>
+  <Option value="Import_wegen_OSM" type="QString" name="model_name"/>
   <Option name="parameterDefinitions"/>
   <Option name="parameterOrder"/>
   <Option name="parameters"/>
