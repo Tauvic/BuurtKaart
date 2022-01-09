@@ -25,7 +25,14 @@ Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl]
 
 Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
-Kaart: speelterreinen en hun bereikbaarheid
+## Het resultaat
+
+Een kaart voor de buurt hier vind je zowel de voorzieningen maar ook de zaken die onze aandacht verdienen:
+[![image](https://user-images.githubusercontent.com/3518738/148700663-8e77988c-21f1-4e33-8e16-0d87c80edae3.png)](https://umap.openstreetmap.fr/en/map/buurtkaart-ermelo_701385#16/52.2933/5.6101)
+
+
+Naast de kaart zijn er ook nog kaarten en rapportages voor gebruik door de buurt vertegenwoordigers.
+Zoals een kaart die de speelterreinen weergeeft en hun bereikbaarheid voor de kinderen die er wonen. Hiermee kan je in gesprek gaan met de gemeente.
 ![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024)
 
 ## Ambities: 
@@ -45,3 +52,6 @@ Kaart: speelterreinen en hun bereikbaarheid
 Het aandachtspunt speelterreinen is nu behoorlijk uitgewerkt. Zo is er een overzichtskaart en een analyse bereikbaarheid. Ik ga uit van de richtlijnen in [Handboek spelen met ruimte](https://vng.nl/files/vng/handboekspelenmetruimte.pdf): (Normen opgesteld VNG, Jantje beton) en de [Handleiding bij Rotterdamse norm](http://spelenenbewegen.nl/wp-content/uploads/2016/04/Handleiding-Rotterdamse-norm-Buitenspeelruimte_def.pdf).
 
 Ik werk nu aan een overzicht [verkeersveiligheid](https://github.com/Tauvic/BuurtKaart/wiki/Verkeersveiligheid) voor de lokale wijkvereniging.
+
+Het inlezen en verwerken van data is nu geautomatiseerd:
+![Automatisch data verwerken](https://tauvicr.files.wordpress.com/2022/01/buurtkaart_verwerken.png?w=1024)
