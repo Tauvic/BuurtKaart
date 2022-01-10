@@ -17,7 +17,7 @@ Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl]
 
 ## Het proces in het kort
 
-![Verwerkingsprocess](https://tauvicr.files.wordpress.com/2022/01/buurtkaart_proces.png)
+<img src="https://tauvicr.files.wordpress.com/2022/01/buurtkaart_proces.png?test" width="50%" align="right"/>
 
 * Verzamel informatie (situatie, behoefte, klachten, ideeën) over je omgeving en breng je buurt in kaart (**zichtbaar maken**)
 * Analyseer de situatie en trek conclusies (**inzicht**)
@@ -28,18 +28,16 @@ Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl]
 Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
 ## Het resultaat
-
-Buurtkaart levert een aantal producten
+<a href="https://umap.openstreetmap.fr/en/map/buurtkaart-ermelo_701385#16/52.2933/5.6101"><img src="https://tauvicr.files.wordpress.com/2022/01/buurtkaart_umap.png" width="50%" align="right"/></a>
+De BuurtKaart werkwijze levert een aantal producten op:
 * Thematische BuurtKaarten voor buurtbewoners
 * Ondersteuning voor wijk en buurt vertegenwoordigers voor het analyseren van de situatie in hun buurt
 
 Een kaart voor de buurtbewoner: hier vind je zowel de voorzieningen maar ook de zaken die onze aandacht verdienen:
-[![image](https://user-images.githubusercontent.com/3518738/148700663-8e77988c-21f1-4e33-8e16-0d87c80edae3.png)](https://umap.openstreetmap.fr/en/map/buurtkaart-ermelo_701385#16/52.2933/5.6101)
 
-
+<img src="https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png" width="50%" align="left"/>
 Naast de kaart zijn er ook nog kaarten en rapportages voor gebruik door de buurtvertegenwoordigers.
 Zoals een kaart die de speelterreinen weergeeft en hun bereikbaarheid voor de kinderen die er wonen. Hiermee kan je in gesprek gaan met de gemeente.
-![Analyse bereikbaarheid](https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=1024)
 
 ## Ambities: 
 * Voorzieningen en hun bereikbaarheid
