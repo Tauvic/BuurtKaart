@@ -17,6 +17,8 @@ Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl]
 
 ## Het proces in het kort
 
+![Verwerkingsprocess](https://tauvicr.files.wordpress.com/2022/01/buurtkaart_proces.png)
+
 * Verzamel informatie (situatie, behoefte, klachten, ideeën) over je omgeving en breng je buurt in kaart (**zichtbaar maken**)
 * Analyseer de situatie en trek conclusies (**inzicht**)
 * Verbeter de buurt (**acties** met vrijwilligers, samen met de gemeente) 
