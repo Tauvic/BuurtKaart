@@ -28,6 +28,7 @@ Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl]
 Een volledige handleiding vind je in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki/Algemeen).
 
 ## Het resultaat
+
 <a href="https://umap.openstreetmap.fr/en/map/buurtkaart-ermelo_701385#16/52.2933/5.6101"><img src="https://tauvicr.files.wordpress.com/2022/01/buurtkaart_umap.png" width="50%" align="right"/></a>
 De BuurtKaart werkwijze levert een aantal producten op:
 * Thematische BuurtKaarten voor buurtbewoners
@@ -35,11 +36,14 @@ De BuurtKaart werkwijze levert een aantal producten op:
 
 Een kaart voor de buurtbewoner: hier vind je zowel de voorzieningen maar ook de zaken die onze aandacht verdienen:
 
-<img src="https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png" width="50%" align="left"/>
+<img src="https://tauvicr.files.wordpress.com/2021/12/buurtkaart.png?w=500" width="50%" align="right"/>
 Naast de kaart zijn er ook nog kaarten en rapportages voor gebruik door de buurtvertegenwoordigers.
 Zoals een kaart die de speelterreinen weergeeft en hun bereikbaarheid voor de kinderen die er wonen. Hiermee kan je in gesprek gaan met de gemeente.
 
+
 ## Ambities: 
+
+Waar zijn we mee bezig en willen we verder ontwikkelen:
 * Voorzieningen en hun bereikbaarheid
   * De speelterreinen op de kaart zetten en advies over betere indeling
   * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
@@ -49,7 +53,6 @@ Zoals een kaart die de speelterreinen weergeeft en hun bereikbaarheid voor de ki
   * Wandelroutes met mogelijkheden voor ontmoeting
   * Sociale veiligheid (paden, verlichting)
 * Demografische ontwikkeling
-
 
 ## Wat is er tot nu toe bereikt
 
