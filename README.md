@@ -1,8 +1,8 @@
 # BuurtKaart (breng je buurt in kaart en verbeter de leefomgeving)
 
 Met de Omgevingswet krijgen burgers nieuwe mogelijkheden om invloed uit te oefenen op beslissingen over hun leefomgeving. 
-Burgerparticipatie was heel vroeger een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
-Dit geeft de indruk dat er nog maar weinig bij te sturen valt.
+Voreger was burgerparticipatie een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
+Dit gaf de indruk dat er nog maar weinig bij te sturen viel.
 
 Maar juist nu zijn er nieuwe mogelijkheden.
 Open Data is nu vrij beschikbaar over alle aspecten van onze omgeving.
