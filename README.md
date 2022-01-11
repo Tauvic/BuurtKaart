@@ -60,5 +60,5 @@ Het aandachtspunt speelterreinen is nu behoorlijk uitgewerkt. Zo is er een overz
 
 Ik werk nu aan een overzicht [verkeersveiligheid](https://github.com/Tauvic/BuurtKaart/wiki/Verkeersveiligheid) voor de lokale wijkvereniging.
 
-Het inlezen en verwerken van data is nu geautomatiseerd:
+Een druk op de knp methode. Het inlezen en verwerken van data is nu geautomatiseerd:
 ![Automatisch data verwerken](https://tauvicr.files.wordpress.com/2022/01/buurtkaart_verwerken.png?w=1024)
