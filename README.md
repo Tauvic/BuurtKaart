@@ -1,10 +1,13 @@
 # BuurtKaart (breng je buurt in kaart en verbeter de leefomgeving)
 
 Met de Omgevingswet krijgen burgers nieuwe mogelijkheden om invloed uit te oefenen op beslissingen over hun leefomgeving. 
-Voreger was burgerparticipatie een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
+Vroeger was burgerparticipatie een door de gemeente of projectontwikkelaar geregisseerde activiteit, meestal aan het einde van een lang planning en voorbereidingstraject. 
 Dit gaf de indruk dat er nog maar weinig bij te sturen viel.
 
-Maar juist nu zijn er nieuwe mogelijkheden.
+<a href="https://www.leefbaarheidsalliantie.nl/"><img src="https://user-images.githubusercontent.com/3518738/149097420-0e4d84a7-058f-4d83-b2e5-7df316237b7c.png" align="right" width="50%"/></a>
+
+Maar nu is dat helemaal anders, inzichten veranderen. Leefbaarheid en burgerparticipatie is helemaal in. 
+Juist nu zijn er nieuwe mogelijkheden.
 Open Data is nu vrij beschikbaar over alle aspecten van onze omgeving.
 Combineer dit met lokale kennis en ervaring van buurtbewoners en je krijgt een compleet beeld.
 Deze aanpak word ook door gemeenten onderkend.
