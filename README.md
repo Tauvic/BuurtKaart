@@ -50,7 +50,7 @@ Waar zijn we mee bezig en willen we verder ontwikkelen:
 * Voorzieningen en hun bereikbaarheid
   * De speelterreinen op de kaart zetten en advies over betere indeling
   * Hondenuitlaatplaatsen (locatie en bereikbaarheid)
-  * Voorzieningen voor ouderen (locatie en bereikbaarheid)
+  * Begaanbare stoepen, voetpaden en trappen
 * Verkeer & veiligheid
   * Verkeersveiligheid
   * Wandelroutes met mogelijkheden voor ontmoeting
