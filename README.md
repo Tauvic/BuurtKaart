@@ -21,14 +21,14 @@ Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl]
 ## Waarom een kaart?
 
 Waarom gebruik je een kaart? 
-Allereerst omdat een kaart je snel inzicht geeft in je omgeving.
+Allereerst omdat een kaart je snel een goed overzicht geeft over je omgeving.
 Je wil de informatie altijd en overal kunnen gebruiken. 
-Ook zijn er naast internet kaart systemen Apps beschikbaar voor offline toegang.
-Zo gebruik ik de OSMAnd App om de recreatie mogelijkheden op de vakantie locatie te vinden.
+Daarom zijn er naast internet kaartsystemen ook Apps beschikbaar voor offline toegang.
+Zo gebruik ik de OSMAnd App om de recreatie mogelijkheden op de vakantielocatie te vinden.
 
 Tenslotte kan je met een geavanceerd kaartsysteem heel goed analyses uitvoeren.
 Zo kan de Wijkvereniging onderzoeken of voorzieningen goed bereikbaar zijn voor iedereen.
-Daarom hebben we graag data in digitale vorm.
+Daarom hebben we graag alle data in digitale vorm.
 
 ## Het proces in het kort
 
