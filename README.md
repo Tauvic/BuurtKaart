@@ -24,11 +24,18 @@ Waarom gebruik je een kaart?
 Allereerst omdat een kaart je snel een goed overzicht geeft over je omgeving.
 Je wil de informatie altijd en overal kunnen gebruiken. 
 Daarom zijn er naast internet kaartsystemen ook Apps beschikbaar voor offline toegang.
-Zo gebruik ik de OSMAnd App om de recreatie mogelijkheden op de vakantielocatie te vinden.
+Zo gebruik ik de OSMAnd App op vakantie om snel de recreatiemogelijkheden voor mijn dochter te vinden.
 
-Tenslotte kan je met een geavanceerd kaartsysteem heel goed analyses uitvoeren.
-Zo kan de Wijkvereniging onderzoeken of voorzieningen goed bereikbaar zijn voor iedereen.
+Ben jij ook in Ermelo? Dan vind je nu heel gemakkelijk alle speelterreinen en bankjes in OSMAnd.
+Wat zou het mooi zijn als je nog meer voorzieningen kan vinden die voor jou van belang zijn.
+Daar werken we hier aan. De voorzieningen die mensen nodig hebben overzichtelijk op de kaart en waar ze er niet zijn zorgen dat ze er snel komen.
+
+Daarnaast kan je met QGIS (een geavanceerd kaartsysteem) heel goed analyses uitvoeren.
+Zo kan de Wijkvereniging onderzoeken of de voorzieningen goed verspreid zijn over de gemeente en bereikbaar voor iedereen.
 Daarom hebben we graag alle data in digitale vorm.
+
+**Doe jij ook mee?** Kaarten komen er niet vanzelf. Deze aanpak moet ontwikkeld worden, zoals je kan zien in de [wiki](https://github.com/Tauvic/BuurtKaart/wiki) is er al veel gedaan.
+Je kan er dus al gebruik van maken. Maar we willen meer en beter daarom is alle hulp welkom.
 
 ## Het proces in het kort
 
