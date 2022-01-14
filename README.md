@@ -6,7 +6,7 @@ Dit gaf de indruk dat er nog maar weinig bij te sturen viel.
 
 <a href="https://www.leefbaarheidsalliantie.nl/"><img src="https://user-images.githubusercontent.com/3518738/149097420-0e4d84a7-058f-4d83-b2e5-7df316237b7c.png" align="right" width="50%"/></a>
 
-Maar nu is dat helemaal anders, inzichten veranderen. Leefbaarheid en burgerparticipatie is helemaal in. 
+Maar nu is dat helemaal anders, inzichten veranderen. **Leefbaarheid** en **burgerparticipatie** is helemaal in. 
 Juist nu zijn er nieuwe mogelijkheden.
 Open Data is nu vrij beschikbaar over alle aspecten van onze omgeving.
 Combineer dit met lokale kennis en ervaring van buurtbewoners en je krijgt een compleet beeld.
@@ -17,6 +17,18 @@ Met de juiste data en wat hulp van de **BuurtKaart** wordt bewonersparticipatie 
 >Burgerparticipatie nieuwe stijl: "De goed geïnformeerde burger werkt samen met de gemeente aan zijn omgeving"
 
 Lees meer over de gedachte van deze werkwijze: [Burgerparticipatie nieuwe stijl](https://tauvicr.wordpress.com/2021/11/16/burgerparticipatie-nieuwe-stijl/)
+
+## Waarom een kaart?
+
+Waarom gebruik je een kaart? 
+Allereerst omdat een kaart je snel inzicht geeft in je omgeving.
+Je wil de informatie altijd en overal kunnen gebruiken. 
+Ook zijn er naast internet kaart systemen Apps beschikbaar voor offline toegang.
+Zo gebruik ik de OSMAnd App om de recreatie mogelijkheden op de vakantie locatie te vinden.
+
+Tenslotte kan je met een geavanceerd kaartsysteem heel goed analyses uitvoeren.
+Zo kan de Wijkvereniging onderzoeken of voorzieningen goed bereikbaar zijn voor iedereen.
+Daarom hebben we graag data in digitale vorm.
 
 ## Het proces in het kort
 
